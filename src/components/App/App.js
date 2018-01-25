@@ -8,6 +8,7 @@ class App extends Component {
 
         <div className="header-root-32BPK header-root_no-bottom-margin-7gPk3">
 
+          {/* header services */}
           <div className="header-services-2XcAz header-services">
             <div className="header-services-inner-37pha header-clearfix-2C_lO">
               <ul className="header-list-1QTjc header-services-nav-HNIx_ header-clearfix-2C_lO">
@@ -40,7 +41,40 @@ class App extends Component {
               </div>
             </div>
           </div>
-          
+
+          {/* header basic */}
+          <div className="header-basic-1Lwr-">
+            <div className="header-basic-inner-3ZcvI header-clearfix-2C_lO">
+              <div className="header-logo-2fq6a">
+                <span className="logo-root-35OMU">
+                  <a className="logo-logo-zes49" title="Avito - сайт объявлений"> </a>
+                </span>
+              </div>
+              <ul className="header-list-1QTjc header-categories-zVUjn">
+                <li className="header-category-1Z_ya ">
+                  <a className="header-link-1PHO2 header-category-link-2G0tv">Авто</a>
+                </li>
+                <li className="header-category-1Z_ya ">
+                  <a className="header-link-1PHO2 header-category-link-2G0tv">Недвижимость</a>
+                </li>
+                <li className="header-category-1Z_ya ">
+                  <a className="header-link-1PHO2 header-category-link-2G0tv">Работа</a>
+                </li>
+                <li className="header-category-1Z_ya ">
+                  <a className="header-link-1PHO2 header-category-link-2G0tv">Услуги</a>
+                </li>
+                <li className="header-category-1Z_ya ">
+                  <button className="header-button-7OJ_l header-link-1PHO2 header-category-link-2G0tv header-category-link_more-1aOhF">ещё</button>
+                </li>
+              </ul>
+              <div className="header-button-wrapper-iwCvN">
+                <a className="header-button-add-item-2cgWl button-root-1U-0K button-root_size-m-3mjxJ button-root_design-primary-eZ5Gi">
+                  Подать объявление
+                </a>
+              </div>
+            </div>
+          </div>
+
         </div>
 
       </Fragment>

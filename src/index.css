@@ -20,3 +20,24 @@ a, div, form, h1, h2, h3, h4, h5, h6, i, img, label, li, p, span, table, tbody, 
     font: inherit;
     vertical-align: baseline;
 }
+
+.layout-internal {
+    padding: 0 18px;
+    flex-shrink: 0;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.col-12 {
+    width: 964px;
+}
+
+
+.clearfix::after {
+    clear: both;
+    height: 0;
+    display: block;
+    content: '.';
+    visibility: hidden;
+    font: 0/0 a;
+}

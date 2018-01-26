@@ -118,15 +118,191 @@ class App extends Component {
                 <div id="pre-filters" className="search-form__row search-form__row_2">
                   <label className="form-checkbox">
                     <input type="checkbox" />
-                    <span className="form-checkbox__label">только в названиях</span>
+                    <span className="form-checkbox__label">только в названиях </span>
                   </label>&nbsp;
                   <label className="form-checkbox">
-                    <input type="checkbox" checked />
+                    <input type="checkbox" defaultChecked />
                     <span className="form-checkbox__label">только с фото</span>
                   </label>
                 </div>
               </div>
             </form>
+          </div>
+        </div>
+
+        {/* catalog */}
+        <div className="catalog col-12 layout-content-wrap layout-internal">
+          <div className="clearfix l-content">
+            <div className="breadcrumbs">
+              <span className="breadcrumbs-link_large">Все объявления в России </span>
+              <span className="breadcrumbs-link-count"> 34 968 639</span>
+            </div>
+            <div className="catalog-counts">
+              <div className="catalog-counts__section">
+                <div className="catalog-counts__row clearfix">
+                  <ul>
+                    <li>
+                      <a>Личные вещи</a>
+                      <span className="c-2 catalog-counts__number"> 13 800 106</span>
+                    </li>
+                    <li>
+                      <a>Транспорт</a>
+                      <span className="c-2 catalog-counts__number"> 8 481 376</span>
+                    </li>
+                    <li>
+                      <a>Для дома и дачи</a>
+                      <span className="c-2 catalog-counts__number"> 3 307 619</span>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <a>Бытовая электроника</a>
+                      <span className="c-2 catalog-counts__number"> 2 831 737</span>
+                    </li>
+                    <li>
+                      <a>Хобби и отдых</a>
+                      <span className="c-2 catalog-counts__number"> 2 538 398</span>
+                    </li>
+                    <li>
+                      <a>Недвижимость</a>
+                      <span className="c-2 catalog-counts__number"> 2 011 483</span>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <a>Услуги</a>
+                      <span className="c-2 catalog-counts__number"> 919 989</span>
+                    </li>
+                    <li>
+                      <a>Животные</a>
+                      <span className="c-2 catalog-counts__number"> 412 148</span>
+                    </li>
+                    <li>
+                      <a>Работа</a>
+                      <span className="c-2 catalog-counts__number"> 366 692</span>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <a>Для бизнеса</a>
+                      <span className="c-2 catalog-counts__number"> 299 091</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="catalog-counts__section">
+                <div className="catalog-counts__switches">
+                  <span className="catalog-counts__switch catalog-counts__switch_on">Крупнейшие регионы</span>&nbsp;
+                  <span className="catalog-counts__switch pseudo-link">все</span>
+                </div>
+                <div className="catalog-counts__row clearfix">
+                  <ul>
+                    <li>
+                      <a>Москва</a>
+                      <span className="c-2 catalog-counts__number"> 7 438 757</span>
+                    </li>
+                    <li>
+                      <a>Московская обл.</a>
+                      <span className="c-2 catalog-counts__number"> 1 409 082</span>
+                    </li>
+                    <li>
+                      <a>Санкт-Петербург</a>
+                      <span className="c-2 catalog-counts__number"> 3 641 217</span>
+                    </li>
+                    <li>
+                      <a>Ленинградская обл.</a>
+                      <span className="c-2 catalog-counts__number"> 106 625</span>
+                    </li>
+                    <li>
+                      <a>Алтайский край</a>
+                      <span className="c-2 catalog-counts__number"> 346 266</span>
+                    </li>
+                    <li>
+                      <a>Башкортостан</a>
+                      <span className="c-2 catalog-counts__number"> 788 294</span>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <a>Волгоградская обл.</a>
+                      <span className="c-2 catalog-counts__number"> 582 533</span>
+                    </li>
+                    <li>
+                      <a>Воронежская обл.</a>
+                      <span className="c-2 catalog-counts__number"> 512 177</span>
+                    </li>
+                    <li>
+                      <a>Иркутская обл.</a>
+                      <span className="c-2 catalog-counts__number"> 345 039</span>
+                    </li>
+                    <li>
+                      <a>Калининградская обл.</a>
+                      <span className="c-2 catalog-counts__number"> 405 763</span>
+                    </li>
+                    <li>
+                      <a>Кемеровская обл.</a>
+                      <span className="c-2 catalog-counts__number"> 381 135</span>
+                    </li>
+                    <li>
+                      <a>Краснодарский край</a>
+                      <span className="c-2 catalog-counts__number"> 1 897 277</span>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <a>Красноярский край</a>
+                      <span className="c-2 catalog-counts__number"> 449 956</span>
+                    </li>
+                    <li>
+                      <a>Нижегородская обл.</a>
+                      <span className="c-2 catalog-counts__number"> 953 359</span>
+                    </li>
+                    <li>
+                      <a>Новосибирская обл.</a>
+                      <span className="c-2 catalog-counts__number"> 640 329</span>
+                    </li>
+                    <li>
+                      <a>Омская обл.</a>
+                      <span className="c-2 catalog-counts__number"> 461 973</span>
+                    </li>
+                    <li>
+                      <a>Пермский край</a>
+                      <span className="c-2 catalog-counts__number"> 643 803</span>
+                    </li>
+                    <li>
+                      <a>Ростовская обл.</a>
+                      <span className="c-2 catalog-counts__number"> 1 074 092</span>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <a>Самарская обл.</a>
+                      <span className="c-2 catalog-counts__number"> 816 886</span>
+                    </li>
+                    <li>
+                      <a>Саратовская обл.</a>
+                      <span className="c-2 catalog-counts__number"> 486 878</span>
+                    </li>
+                    <li>
+                      <a>Свердловская обл.</a>
+                      <span className="c-2 catalog-counts__number"> 1 151 796</span>
+                    </li>
+                    <li>
+                      <a>Ставропольский край</a>
+                      <span className="c-2 catalog-counts__number"> 424 033</span>
+                    </li>
+                    <li>
+                      <a>Татарстан</a>
+                      <span className="c-2 catalog-counts__number"> 1 065 059</span>
+                    </li>
+                    <li>
+                      <a>Челябинская обл.</a>
+                      <span className="c-2 catalog-counts__number"> 948 130</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 

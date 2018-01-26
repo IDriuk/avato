@@ -115,9 +115,7 @@ class App extends Component {
                     </div>
                   </div>
                 </div>
-                <div
-                  id="pre-filters"
-                  className="search-form__row search-form__row_2">
+                <div id="pre-filters" className="search-form__row search-form__row_2">
                   <label className="form-checkbox">
                     <input type="checkbox" />
                     <span className="form-checkbox__label">только в названиях</span>

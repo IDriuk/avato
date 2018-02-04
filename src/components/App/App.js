@@ -309,6 +309,790 @@ class App extends Component {
               <div id="ads_ldr_top" className="ad_1000x120 dfp avito-ads-content js-banner-1000x120"></div>
             </div>
 
+            <div className="catalog-content">
+
+              {/* catalog main */}
+              <div className="catalog-main catalog_table">
+                <div className="catalog-recommendations">
+                  <div className="recommendations">
+                    <div className="recommendations-title">Новые объявления</div>
+                    <div className="recommendations-content">
+                      <div className="recommendations-list">
+
+                        <div className="recommendations-item recommendations-item_large">
+                          <div className="item item_gallery">
+                            <div className="img-container">
+                              <a className="img-link">
+                                <img className="img" src="https://40.img.avito.st/432x324/3766960240.jpg" alt="1-к квартира, 42 м², 23/25 эт." />
+                                <span className="photo-icons">
+                                  <i className="i i-photo">20</i>
+                                </span>
+                              </a>
+                              <div className="favorites-add is-design-simple">
+                                <a className="favorites-add__link">
+                                  <i className="i i-favorites-big"></i>
+                                </a>
+                              </div>
+                            </div>
+                            <div className="description">
+                              <h3 className="title description-title">
+                                <a className="description-title-link">1-к квартира, 42 м², 23/25 эт.</a>
+                              </h3>
+                              <div className="options">
+                                <span className="option price">2 100 р. в сутки</span>
+                                <div className="fader item_gallery-ellipsis">
+                                  <span className="option">Краснодар</span>
+                                </div>
+                                <div className="created-date">Сегодня 17:53</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="recommendations-item recommendations-item_large">
+                          <div className="item item_gallery">
+                            <div className="img-container">
+                              <a className="img-link">
+                                <img className="img" src="https://01.img.avito.st/432x324/4163457101.jpg" alt="3-к квартира, 75 м², 5/10 эт." />
+                                <span className="photo-icons">
+                                  <i className="i i-photo">20</i>
+                                </span>
+                              </a>
+                              <div className="favorites-add is-design-simple">
+                                <a className="favorites-add__link">
+                                  <i className="i i-favorites-big"></i>
+                                </a>
+                              </div>
+                            </div>
+                            <div className="description">
+                              <h3 className="title description-title">
+                                <a className="description-title-link">3-к квартира, 75 м², 5/10 эт.</a>
+                              </h3>
+                              <div className="options">
+                                <span className="option price">3 500 000 р.</span>
+                                <div className="fader item_gallery-ellipsis">
+                                  <span className="option">Краснодар</span>
+                                </div>
+                                <div className="created-date">Сегодня 17:53</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="recommendations-item">
+                          <div className="item item_gallery">
+                            <div className="img-container">
+                              <a className="img-link">
+                                <img className="img" src="https://36.img.avito.st/208x156/4093797936.jpg" alt="KIA Rio, 2017" />
+                                <span className="photo-icons">
+                                  <i className="i i-photo">15</i>
+                                </span>
+                              </a>
+                              <div className="favorites-add is-design-simple">
+                                <a className="favorites-add__link">
+                                  <i className="i i-favorites-big"></i>
+                                </a>
+                              </div>
+                            </div>
+                            <div className="description">
+                              <h3 className="title description-title">
+                                <a className="description-title-link">KIA Rio, 2017</a>
+                              </h3>
+                              <div className="options">
+                                <span className="option price">800 000 р.</span>
+                                <div className="fader item_gallery-ellipsis">
+                                  <span className="option">Пятигорск</span>
+                                </div>
+                                <div className="created-date">Сегодня 17:53</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="recommendations-item">
+                          <div className="item item_gallery">
+                            <div className="img-container">
+                              <a className="img-link">
+                                <img className="img" src="https://00.img.avito.st/208x156/4183461600.jpg" alt="Продажа шин" />
+                                <span className="photo-icons">
+                                  <i className="i i-photo">2</i>
+                                </span>
+                              </a>
+                              <div className="favorites-add is-design-simple">
+                                <a className="favorites-add__link">
+                                  <i className="i i-favorites-big"></i>
+                                </a>
+                              </div>
+                            </div>
+                            <div className="description">
+                              <h3 className="title description-title">
+                                <a className="description-title-link">Продажа шин</a>
+                              </h3>
+                              <div className="options">
+                                <span className="option price">5 000 р.</span>
+                                <div className="fader item_gallery-ellipsis">
+                                  <span className="option">Серпухов</span>
+                                </div>
+                                <div className="created-date">Сегодня 17:54</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="recommendations-item">
+                          <div className="item item_gallery">
+                            <div className="img-container">
+                              <a className="img-link">
+                                <img className="img" src="https://31.img.avito.st/208x156/4183458731.jpg" alt="Бой кирпича арт. Rt874 д/заполнения пустот" />
+                              </a>
+                              <div className="favorites-add is-design-simple">
+                                <a className="favorites-add__link">
+                                  <i className="i i-favorites-big"></i>
+                                </a>
+                              </div>
+                            </div>
+                            <div className="description">
+                              <h3 className="title description-title">
+                                <a className="description-title-link">Бой кирпича арт. Rt874 д/заполнения пустот</a>
+                              </h3>
+                              <div className="options">
+                                <span className="option price">100 р.</span>
+                                <div className="fader item_gallery-ellipsis">
+                                  <span className="option">Краснодар</span>
+                                </div>
+                                <div className="created-date">Сегодня 17:54</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="recommendations-item">
+                          <div className="item item_gallery">
+                            <div className="img-container">
+                              <a className="img-link">
+                                <img className="img" src="https://36.img.avito.st/208x156/4093797936.jpg" alt="KIA Rio, 2017" />
+                                <span className="photo-icons">
+                                  <i className="i i-photo">15</i>
+                                </span>
+                              </a>
+                              <div className="favorites-add is-design-simple">
+                                <a className="favorites-add__link">
+                                  <i className="i i-favorites-big"></i>
+                                </a>
+                              </div>
+                            </div>
+                            <div className="description">
+                              <h3 className="title description-title">
+                                <a className="description-title-link">KIA Rio, 2017</a>
+                              </h3>
+                              <div className="options">
+                                <span className="option price">800 000 р.</span>
+                                <div className="fader item_gallery-ellipsis">
+                                  <span className="option">Пятигорск</span>
+                                </div>
+                                <div className="created-date">Сегодня 17:53</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="recommendations-item">
+                          <div className="item item_gallery">
+                            <div className="img-container">
+                              <a className="img-link">
+                                <img className="img" src="https://00.img.avito.st/208x156/4183461600.jpg" alt="Продажа шин" />
+                                <span className="photo-icons">
+                                  <i className="i i-photo">2</i>
+                                </span>
+                              </a>
+                              <div className="favorites-add is-design-simple">
+                                <a className="favorites-add__link">
+                                  <i className="i i-favorites-big"></i>
+                                </a>
+                              </div>
+                            </div>
+                            <div className="description">
+                              <h3 className="title description-title">
+                                <a className="description-title-link">Продажа шин</a>
+                              </h3>
+                              <div className="options">
+                                <span className="option price">5 000 р.</span>
+                                <div className="fader item_gallery-ellipsis">
+                                  <span className="option">Серпухов</span>
+                                </div>
+                                <div className="created-date">Сегодня 17:54</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="recommendations-item">
+                          <div className="item item_gallery">
+                            <div className="img-container">
+                              <a className="img-link">
+                                <img className="img" src="https://31.img.avito.st/208x156/4183458731.jpg" alt="Бой кирпича арт. Rt874 д/заполнения пустот" />
+                              </a>
+                              <div className="favorites-add is-design-simple">
+                                <a className="favorites-add__link">
+                                  <i className="i i-favorites-big"></i>
+                                </a>
+                              </div>
+                            </div>
+                            <div className="description">
+                              <h3 className="title description-title">
+                                <a className="description-title-link">Бой кирпича арт. Rt874 д/заполнения пустот</a>
+                              </h3>
+                              <div className="options">
+                                <span className="option price">100 р.</span>
+                                <div className="fader item_gallery-ellipsis">
+                                  <span className="option">Краснодар</span>
+                                </div>
+                                <div className="created-date">Сегодня 17:54</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="recommendations-item">
+                          <div className="item item_gallery">
+                            <div className="img-container">
+                              <a className="img-link">
+                                <img className="img" src="https://36.img.avito.st/208x156/4093797936.jpg" alt="KIA Rio, 2017" />
+                                <span className="photo-icons">
+                                  <i className="i i-photo">15</i>
+                                </span>
+                              </a>
+                              <div className="favorites-add is-design-simple">
+                                <a className="favorites-add__link">
+                                  <i className="i i-favorites-big"></i>
+                                </a>
+                              </div>
+                            </div>
+                            <div className="description">
+                              <h3 className="title description-title">
+                                <a className="description-title-link">KIA Rio, 2017</a>
+                              </h3>
+                              <div className="options">
+                                <span className="option price">800 000 р.</span>
+                                <div className="fader item_gallery-ellipsis">
+                                  <span className="option">Пятигорск</span>
+                                </div>
+                                <div className="created-date">Сегодня 17:53</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="recommendations-item">
+                          <div className="item item_gallery">
+                            <div className="img-container">
+                              <a className="img-link">
+                                <img className="img" src="https://00.img.avito.st/208x156/4183461600.jpg" alt="Продажа шин" />
+                                <span className="photo-icons">
+                                  <i className="i i-photo">2</i>
+                                </span>
+                              </a>
+                              <div className="favorites-add is-design-simple">
+                                <a className="favorites-add__link">
+                                  <i className="i i-favorites-big"></i>
+                                </a>
+                              </div>
+                            </div>
+                            <div className="description">
+                              <h3 className="title description-title">
+                                <a className="description-title-link">Продажа шин</a>
+                              </h3>
+                              <div className="options">
+                                <span className="option price">5 000 р.</span>
+                                <div className="fader item_gallery-ellipsis">
+                                  <span className="option">Серпухов</span>
+                                </div>
+                                <div className="created-date">Сегодня 17:54</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="recommendations-item">
+                          <div className="item item_gallery">
+                            <div className="img-container">
+                              <a className="img-link">
+                                <img className="img" src="https://31.img.avito.st/208x156/4183458731.jpg" alt="Бой кирпича арт. Rt874 д/заполнения пустот" />
+                              </a>
+                              <div className="favorites-add is-design-simple">
+                                <a className="favorites-add__link">
+                                  <i className="i i-favorites-big"></i>
+                                </a>
+                              </div>
+                            </div>
+                            <div className="description">
+                              <h3 className="title description-title">
+                                <a className="description-title-link">Бой кирпича арт. Rt874 д/заполнения пустот</a>
+                              </h3>
+                              <div className="options">
+                                <span className="option price">100 р.</span>
+                                <div className="fader item_gallery-ellipsis">
+                                  <span className="option">Краснодар</span>
+                                </div>
+                                <div className="created-date">Сегодня 17:54</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="recommendations-item">
+                          <div className="item item_gallery">
+                            <div className="img-container">
+                              <a className="img-link">
+                                <img className="img" src="https://36.img.avito.st/208x156/4093797936.jpg" alt="KIA Rio, 2017" />
+                                <span className="photo-icons">
+                                  <i className="i i-photo">15</i>
+                                </span>
+                              </a>
+                              <div className="favorites-add is-design-simple">
+                                <a className="favorites-add__link">
+                                  <i className="i i-favorites-big"></i>
+                                </a>
+                              </div>
+                            </div>
+                            <div className="description">
+                              <h3 className="title description-title">
+                                <a className="description-title-link">KIA Rio, 2017</a>
+                              </h3>
+                              <div className="options">
+                                <span className="option price">800 000 р.</span>
+                                <div className="fader item_gallery-ellipsis">
+                                  <span className="option">Пятигорск</span>
+                                </div>
+                                <div className="created-date">Сегодня 17:53</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="recommendations-item">
+                          <div className="item item_gallery">
+                            <div className="img-container">
+                              <a className="img-link">
+                                <img className="img" src="https://00.img.avito.st/208x156/4183461600.jpg" alt="Продажа шин" />
+                                <span className="photo-icons">
+                                  <i className="i i-photo">2</i>
+                                </span>
+                              </a>
+                              <div className="favorites-add is-design-simple">
+                                <a className="favorites-add__link">
+                                  <i className="i i-favorites-big"></i>
+                                </a>
+                              </div>
+                            </div>
+                            <div className="description">
+                              <h3 className="title description-title">
+                                <a className="description-title-link">Продажа шин</a>
+                              </h3>
+                              <div className="options">
+                                <span className="option price">5 000 р.</span>
+                                <div className="fader item_gallery-ellipsis">
+                                  <span className="option">Серпухов</span>
+                                </div>
+                                <div className="created-date">Сегодня 17:54</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="recommendations-item">
+                          <div className="item item_gallery">
+                            <div className="img-container">
+                              <a className="img-link">
+                                <img className="img" src="https://31.img.avito.st/208x156/4183458731.jpg" alt="Бой кирпича арт. Rt874 д/заполнения пустот" />
+                              </a>
+                              <div className="favorites-add is-design-simple">
+                                <a className="favorites-add__link">
+                                  <i className="i i-favorites-big"></i>
+                                </a>
+                              </div>
+                            </div>
+                            <div className="description">
+                              <h3 className="title description-title">
+                                <a className="description-title-link">Бой кирпича арт. Rt874 д/заполнения пустот</a>
+                              </h3>
+                              <div className="options">
+                                <span className="option price">100 р.</span>
+                                <div className="fader item_gallery-ellipsis">
+                                  <span className="option">Краснодар</span>
+                                </div>
+                                <div className="created-date">Сегодня 17:54</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="recommendations-item">
+                          <div className="item item_gallery">
+                            <div className="img-container">
+                              <a className="img-link">
+                                <img className="img" src="https://36.img.avito.st/208x156/4093797936.jpg" alt="KIA Rio, 2017" />
+                                <span className="photo-icons">
+                                  <i className="i i-photo">15</i>
+                                </span>
+                              </a>
+                              <div className="favorites-add is-design-simple">
+                                <a className="favorites-add__link">
+                                  <i className="i i-favorites-big"></i>
+                                </a>
+                              </div>
+                            </div>
+                            <div className="description">
+                              <h3 className="title description-title">
+                                <a className="description-title-link">KIA Rio, 2017</a>
+                              </h3>
+                              <div className="options">
+                                <span className="option price">800 000 р.</span>
+                                <div className="fader item_gallery-ellipsis">
+                                  <span className="option">Пятигорск</span>
+                                </div>
+                                <div className="created-date">Сегодня 17:53</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="recommendations-item">
+                          <div className="item item_gallery">
+                            <div className="img-container">
+                              <a className="img-link">
+                                <img className="img" src="https://00.img.avito.st/208x156/4183461600.jpg" alt="Продажа шин" />
+                                <span className="photo-icons">
+                                  <i className="i i-photo">2</i>
+                                </span>
+                              </a>
+                              <div className="favorites-add is-design-simple">
+                                <a className="favorites-add__link">
+                                  <i className="i i-favorites-big"></i>
+                                </a>
+                              </div>
+                            </div>
+                            <div className="description">
+                              <h3 className="title description-title">
+                                <a className="description-title-link">Продажа шин</a>
+                              </h3>
+                              <div className="options">
+                                <span className="option price">5 000 р.</span>
+                                <div className="fader item_gallery-ellipsis">
+                                  <span className="option">Серпухов</span>
+                                </div>
+                                <div className="created-date">Сегодня 17:54</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="recommendations-item">
+                          <div className="item item_gallery">
+                            <div className="img-container">
+                              <a className="img-link">
+                                <img className="img" src="https://31.img.avito.st/208x156/4183458731.jpg" alt="Бой кирпича арт. Rt874 д/заполнения пустот" />
+                              </a>
+                              <div className="favorites-add is-design-simple">
+                                <a className="favorites-add__link">
+                                  <i className="i i-favorites-big"></i>
+                                </a>
+                              </div>
+                            </div>
+                            <div className="description">
+                              <h3 className="title description-title">
+                                <a className="description-title-link">Бой кирпича арт. Rt874 д/заполнения пустот</a>
+                              </h3>
+                              <div className="options">
+                                <span className="option price">100 р.</span>
+                                <div className="fader item_gallery-ellipsis">
+                                  <span className="option">Краснодар</span>
+                                </div>
+                                <div className="created-date">Сегодня 17:54</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="recommendations-item">
+                          <div className="item item_gallery">
+                            <div className="img-container">
+                              <a className="img-link">
+                                <img className="img" src="https://36.img.avito.st/208x156/4093797936.jpg" alt="KIA Rio, 2017" />
+                                <span className="photo-icons">
+                                  <i className="i i-photo">15</i>
+                                </span>
+                              </a>
+                              <div className="favorites-add is-design-simple">
+                                <a className="favorites-add__link">
+                                  <i className="i i-favorites-big"></i>
+                                </a>
+                              </div>
+                            </div>
+                            <div className="description">
+                              <h3 className="title description-title">
+                                <a className="description-title-link">KIA Rio, 2017</a>
+                              </h3>
+                              <div className="options">
+                                <span className="option price">800 000 р.</span>
+                                <div className="fader item_gallery-ellipsis">
+                                  <span className="option">Пятигорск</span>
+                                </div>
+                                <div className="created-date">Сегодня 17:53</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="recommendations-item">
+                          <div className="item item_gallery">
+                            <div className="img-container">
+                              <a className="img-link">
+                                <img className="img" src="https://00.img.avito.st/208x156/4183461600.jpg" alt="Продажа шин" />
+                                <span className="photo-icons">
+                                  <i className="i i-photo">2</i>
+                                </span>
+                              </a>
+                              <div className="favorites-add is-design-simple">
+                                <a className="favorites-add__link">
+                                  <i className="i i-favorites-big"></i>
+                                </a>
+                              </div>
+                            </div>
+                            <div className="description">
+                              <h3 className="title description-title">
+                                <a className="description-title-link">Продажа шин</a>
+                              </h3>
+                              <div className="options">
+                                <span className="option price">5 000 р.</span>
+                                <div className="fader item_gallery-ellipsis">
+                                  <span className="option">Серпухов</span>
+                                </div>
+                                <div className="created-date">Сегодня 17:54</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="recommendations-item">
+                          <div className="item item_gallery">
+                            <div className="img-container">
+                              <a className="img-link">
+                                <img className="img" src="https://31.img.avito.st/208x156/4183458731.jpg" alt="Бой кирпича арт. Rt874 д/заполнения пустот" />
+                              </a>
+                              <div className="favorites-add is-design-simple">
+                                <a className="favorites-add__link">
+                                  <i className="i i-favorites-big"></i>
+                                </a>
+                              </div>
+                            </div>
+                            <div className="description">
+                              <h3 className="title description-title">
+                                <a className="description-title-link">Бой кирпича арт. Rt874 д/заполнения пустот</a>
+                              </h3>
+                              <div className="options">
+                                <span className="option price">100 р.</span>
+                                <div className="fader item_gallery-ellipsis">
+                                  <span className="option">Краснодар</span>
+                                </div>
+                                <div className="created-date">Сегодня 17:54</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="recommendations-item">
+                          <div className="item item_gallery">
+                            <div className="img-container">
+                              <a className="img-link">
+                                <img className="img" src="https://36.img.avito.st/208x156/4093797936.jpg" alt="KIA Rio, 2017" />
+                                <span className="photo-icons">
+                                  <i className="i i-photo">15</i>
+                                </span>
+                              </a>
+                              <div className="favorites-add is-design-simple">
+                                <a className="favorites-add__link">
+                                  <i className="i i-favorites-big"></i>
+                                </a>
+                              </div>
+                            </div>
+                            <div className="description">
+                              <h3 className="title description-title">
+                                <a className="description-title-link">KIA Rio, 2017</a>
+                              </h3>
+                              <div className="options">
+                                <span className="option price">800 000 р.</span>
+                                <div className="fader item_gallery-ellipsis">
+                                  <span className="option">Пятигорск</span>
+                                </div>
+                                <div className="created-date">Сегодня 17:53</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="recommendations-item">
+                          <div className="item item_gallery">
+                            <div className="img-container">
+                              <a className="img-link">
+                                <img className="img" src="https://00.img.avito.st/208x156/4183461600.jpg" alt="Продажа шин" />
+                                <span className="photo-icons">
+                                  <i className="i i-photo">2</i>
+                                </span>
+                              </a>
+                              <div className="favorites-add is-design-simple">
+                                <a className="favorites-add__link">
+                                  <i className="i i-favorites-big"></i>
+                                </a>
+                              </div>
+                            </div>
+                            <div className="description">
+                              <h3 className="title description-title">
+                                <a className="description-title-link">Продажа шин</a>
+                              </h3>
+                              <div className="options">
+                                <span className="option price">5 000 р.</span>
+                                <div className="fader item_gallery-ellipsis">
+                                  <span className="option">Серпухов</span>
+                                </div>
+                                <div className="created-date">Сегодня 17:54</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="recommendations-item">
+                          <div className="item item_gallery">
+                            <div className="img-container">
+                              <a className="img-link">
+                                <img className="img" src="https://31.img.avito.st/208x156/4183458731.jpg" alt="Бой кирпича арт. Rt874 д/заполнения пустот" />
+                              </a>
+                              <div className="favorites-add is-design-simple">
+                                <a className="favorites-add__link">
+                                  <i className="i i-favorites-big"></i>
+                                </a>
+                              </div>
+                            </div>
+                            <div className="description">
+                              <h3 className="title description-title">
+                                <a className="description-title-link">Бой кирпича арт. Rt874 д/заполнения пустот</a>
+                              </h3>
+                              <div className="options">
+                                <span className="option price">100 р.</span>
+                                <div className="fader item_gallery-ellipsis">
+                                  <span className="option">Краснодар</span>
+                                </div>
+                                <div className="created-date">Сегодня 17:54</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="recommendations-item">
+                          <div className="item item_gallery">
+                            <div className="img-container">
+                              <a className="img-link">
+                                <img className="img" src="https://36.img.avito.st/208x156/4093797936.jpg" alt="KIA Rio, 2017" />
+                                <span className="photo-icons">
+                                  <i className="i i-photo">15</i>
+                                </span>
+                              </a>
+                              <div className="favorites-add is-design-simple">
+                                <a className="favorites-add__link">
+                                  <i className="i i-favorites-big"></i>
+                                </a>
+                              </div>
+                            </div>
+                            <div className="description">
+                              <h3 className="title description-title">
+                                <a className="description-title-link">KIA Rio, 2017</a>
+                              </h3>
+                              <div className="options">
+                                <span className="option price">800 000 р.</span>
+                                <div className="fader item_gallery-ellipsis">
+                                  <span className="option">Пятигорск</span>
+                                </div>
+                                <div className="created-date">Сегодня 17:53</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="recommendations-item">
+                          <div className="item item_gallery">
+                            <div className="img-container">
+                              <a className="img-link">
+                                <img className="img" src="https://00.img.avito.st/208x156/4183461600.jpg" alt="Продажа шин" />
+                                <span className="photo-icons">
+                                  <i className="i i-photo">2</i>
+                                </span>
+                              </a>
+                              <div className="favorites-add is-design-simple">
+                                <a className="favorites-add__link">
+                                  <i className="i i-favorites-big"></i>
+                                </a>
+                              </div>
+                            </div>
+                            <div className="description">
+                              <h3 className="title description-title">
+                                <a className="description-title-link">Продажа шин</a>
+                              </h3>
+                              <div className="options">
+                                <span className="option price">5 000 р.</span>
+                                <div className="fader item_gallery-ellipsis">
+                                  <span className="option">Серпухов</span>
+                                </div>
+                                <div className="created-date">Сегодня 17:54</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="recommendations-item">
+                          <div className="item item_gallery">
+                            <div className="img-container">
+                              <a className="img-link">
+                                <img className="img" src="https://31.img.avito.st/208x156/4183458731.jpg" alt="Бой кирпича арт. Rt874 д/заполнения пустот" />
+                              </a>
+                              <div className="favorites-add is-design-simple">
+                                <a className="favorites-add__link">
+                                  <i className="i i-favorites-big"></i>
+                                </a>
+                              </div>
+                            </div>
+                            <div className="description">
+                              <h3 className="title description-title">
+                                <a className="description-title-link">Бой кирпича арт. Rt874 д/заполнения пустот</a>
+                              </h3>
+                              <div className="options">
+                                <span className="option price">100 р.</span>
+                                <div className="fader item_gallery-ellipsis">
+                                  <span className="option">Краснодар</span>
+                                </div>
+                                <div className="created-date">Сегодня 17:54</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      <button className="button button-origin button-origin_full-width button-origin_large recommendations-show-more">
+                        Eще объявления
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="avito-ads-container">
+                  <div id="ads_desktop_low" className="ads_direct_low ads-direct-low-rtb avito-ads-content"></div>
+                </div>
+              </div>
+
+              {/* catalog promo */}
+              <div className="catalog-promo catalog-promo_empty-gap"></div>
+
+            </div>
+
           </div>
         </div>
 

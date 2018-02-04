@@ -1,6 +1,13 @@
 import React, { Component, Fragment } from 'react';
 import './App.css';
 
+import i3766960240 from '../../images/i3766960240.jpg';
+import i4163457101 from '../../images/i4163457101.jpg';
+import i4093797936 from '../../images/i4093797936.jpg';
+import i4183461600 from '../../images/i4183461600.jpg';
+import i4183458731 from '../../images/i4183458731.jpg';
+import i3675462485 from '../../images/i3675462485.jpg';
+
 class App extends Component {
   render() {
     return (
@@ -323,7 +330,7 @@ class App extends Component {
                           <div className="item item_gallery">
                             <div className="img-container">
                               <a className="img-link">
-                                <img className="img" src="https://40.img.avito.st/432x324/3766960240.jpg" alt="1-к квартира, 42 м², 23/25 эт." />
+                                <img className="img" src={i3766960240} alt="1-к квартира, 42 м², 23/25 эт." />
                                 <span className="photo-icons">
                                   <i className="i i-photo">20</i>
                                 </span>
@@ -353,7 +360,7 @@ class App extends Component {
                           <div className="item item_gallery">
                             <div className="img-container">
                               <a className="img-link">
-                                <img className="img" src="https://01.img.avito.st/432x324/4163457101.jpg" alt="3-к квартира, 75 м², 5/10 эт." />
+                                <img className="img" src={i4163457101} alt="3-к квартира, 75 м², 5/10 эт." />
                                 <span className="photo-icons">
                                   <i className="i i-photo">20</i>
                                 </span>
@@ -383,7 +390,7 @@ class App extends Component {
                           <div className="item item_gallery">
                             <div className="img-container">
                               <a className="img-link">
-                                <img className="img" src="https://36.img.avito.st/208x156/4093797936.jpg" alt="KIA Rio, 2017" />
+                                <img className="img" src={i4093797936} alt="KIA Rio, 2017" />
                                 <span className="photo-icons">
                                   <i className="i i-photo">15</i>
                                 </span>
@@ -413,7 +420,7 @@ class App extends Component {
                           <div className="item item_gallery">
                             <div className="img-container">
                               <a className="img-link">
-                                <img className="img" src="https://00.img.avito.st/208x156/4183461600.jpg" alt="Продажа шин" />
+                                <img className="img" src={i4183461600} alt="Продажа шин" />
                                 <span className="photo-icons">
                                   <i className="i i-photo">2</i>
                                 </span>
@@ -443,7 +450,7 @@ class App extends Component {
                           <div className="item item_gallery">
                             <div className="img-container">
                               <a className="img-link">
-                                <img className="img" src="https://31.img.avito.st/208x156/4183458731.jpg" alt="Бой кирпича арт. Rt874 д/заполнения пустот" />
+                                <img className="img" src={i4183458731} alt="Бой кирпича арт. Rt874 д/заполнения пустот" />
                               </a>
                               <div className="favorites-add is-design-simple">
                                 <a className="favorites-add__link">
@@ -470,7 +477,7 @@ class App extends Component {
                           <div className="item item_gallery">
                             <div className="img-container">
                               <a className="img-link">
-                                <img className="img" src="https://36.img.avito.st/208x156/4093797936.jpg" alt="KIA Rio, 2017" />
+                                <img className="img" src={i4093797936} alt="KIA Rio, 2017" />
                                 <span className="photo-icons">
                                   <i className="i i-photo">15</i>
                                 </span>
@@ -500,7 +507,7 @@ class App extends Component {
                           <div className="item item_gallery">
                             <div className="img-container">
                               <a className="img-link">
-                                <img className="img" src="https://00.img.avito.st/208x156/4183461600.jpg" alt="Продажа шин" />
+                                <img className="img" src={i4183461600} alt="Продажа шин" />
                                 <span className="photo-icons">
                                   <i className="i i-photo">2</i>
                                 </span>
@@ -530,7 +537,7 @@ class App extends Component {
                           <div className="item item_gallery">
                             <div className="img-container">
                               <a className="img-link">
-                                <img className="img" src="https://31.img.avito.st/208x156/4183458731.jpg" alt="Бой кирпича арт. Rt874 д/заполнения пустот" />
+                                <img className="img" src={i4183458731} alt="Бой кирпича арт. Rt874 д/заполнения пустот" />
                               </a>
                               <div className="favorites-add is-design-simple">
                                 <a className="favorites-add__link">
@@ -557,7 +564,7 @@ class App extends Component {
                           <div className="item item_gallery">
                             <div className="img-container">
                               <a className="img-link">
-                                <img className="img" src="https://36.img.avito.st/208x156/4093797936.jpg" alt="KIA Rio, 2017" />
+                                <img className="img" src={i4093797936} alt="KIA Rio, 2017" />
                                 <span className="photo-icons">
                                   <i className="i i-photo">15</i>
                                 </span>
@@ -587,7 +594,7 @@ class App extends Component {
                           <div className="item item_gallery">
                             <div className="img-container">
                               <a className="img-link">
-                                <img className="img" src="https://00.img.avito.st/208x156/4183461600.jpg" alt="Продажа шин" />
+                                <img className="img" src={i4183461600} alt="Продажа шин" />
                                 <span className="photo-icons">
                                   <i className="i i-photo">2</i>
                                 </span>
@@ -617,7 +624,7 @@ class App extends Component {
                           <div className="item item_gallery">
                             <div className="img-container">
                               <a className="img-link">
-                                <img className="img" src="https://31.img.avito.st/208x156/4183458731.jpg" alt="Бой кирпича арт. Rt874 д/заполнения пустот" />
+                                <img className="img" src={i4183458731} alt="Бой кирпича арт. Rt874 д/заполнения пустот" />
                               </a>
                               <div className="favorites-add is-design-simple">
                                 <a className="favorites-add__link">
@@ -644,7 +651,7 @@ class App extends Component {
                           <div className="item item_gallery">
                             <div className="img-container">
                               <a className="img-link">
-                                <img className="img" src="https://36.img.avito.st/208x156/4093797936.jpg" alt="KIA Rio, 2017" />
+                                <img className="img" src={i4093797936} alt="KIA Rio, 2017" />
                                 <span className="photo-icons">
                                   <i className="i i-photo">15</i>
                                 </span>
@@ -674,7 +681,7 @@ class App extends Component {
                           <div className="item item_gallery">
                             <div className="img-container">
                               <a className="img-link">
-                                <img className="img" src="https://00.img.avito.st/208x156/4183461600.jpg" alt="Продажа шин" />
+                                <img className="img" src={i4183461600} alt="Продажа шин" />
                                 <span className="photo-icons">
                                   <i className="i i-photo">2</i>
                                 </span>
@@ -704,7 +711,7 @@ class App extends Component {
                           <div className="item item_gallery">
                             <div className="img-container">
                               <a className="img-link">
-                                <img className="img" src="https://31.img.avito.st/208x156/4183458731.jpg" alt="Бой кирпича арт. Rt874 д/заполнения пустот" />
+                                <img className="img" src={i4183458731} alt="Бой кирпича арт. Rt874 д/заполнения пустот" />
                               </a>
                               <div className="favorites-add is-design-simple">
                                 <a className="favorites-add__link">
@@ -731,7 +738,7 @@ class App extends Component {
                           <div className="item item_gallery">
                             <div className="img-container">
                               <a className="img-link">
-                                <img className="img" src="https://36.img.avito.st/208x156/4093797936.jpg" alt="KIA Rio, 2017" />
+                                <img className="img" src={i4093797936} alt="KIA Rio, 2017" />
                                 <span className="photo-icons">
                                   <i className="i i-photo">15</i>
                                 </span>
@@ -761,7 +768,7 @@ class App extends Component {
                           <div className="item item_gallery">
                             <div className="img-container">
                               <a className="img-link">
-                                <img className="img" src="https://00.img.avito.st/208x156/4183461600.jpg" alt="Продажа шин" />
+                                <img className="img" src={i4183461600} alt="Продажа шин" />
                                 <span className="photo-icons">
                                   <i className="i i-photo">2</i>
                                 </span>
@@ -791,7 +798,7 @@ class App extends Component {
                           <div className="item item_gallery">
                             <div className="img-container">
                               <a className="img-link">
-                                <img className="img" src="https://31.img.avito.st/208x156/4183458731.jpg" alt="Бой кирпича арт. Rt874 д/заполнения пустот" />
+                                <img className="img" src={i4183458731} alt="Бой кирпича арт. Rt874 д/заполнения пустот" />
                               </a>
                               <div className="favorites-add is-design-simple">
                                 <a className="favorites-add__link">
@@ -818,7 +825,7 @@ class App extends Component {
                           <div className="item item_gallery">
                             <div className="img-container">
                               <a className="img-link">
-                                <img className="img" src="https://36.img.avito.st/208x156/4093797936.jpg" alt="KIA Rio, 2017" />
+                                <img className="img" src={i4093797936} alt="KIA Rio, 2017" />
                                 <span className="photo-icons">
                                   <i className="i i-photo">15</i>
                                 </span>
@@ -848,7 +855,7 @@ class App extends Component {
                           <div className="item item_gallery">
                             <div className="img-container">
                               <a className="img-link">
-                                <img className="img" src="https://00.img.avito.st/208x156/4183461600.jpg" alt="Продажа шин" />
+                                <img className="img" src={i4183461600} alt="Продажа шин" />
                                 <span className="photo-icons">
                                   <i className="i i-photo">2</i>
                                 </span>
@@ -878,7 +885,7 @@ class App extends Component {
                           <div className="item item_gallery">
                             <div className="img-container">
                               <a className="img-link">
-                                <img className="img" src="https://31.img.avito.st/208x156/4183458731.jpg" alt="Бой кирпича арт. Rt874 д/заполнения пустот" />
+                                <img className="img" src={i4183458731} alt="Бой кирпича арт. Rt874 д/заполнения пустот" />
                               </a>
                               <div className="favorites-add is-design-simple">
                                 <a className="favorites-add__link">
@@ -905,7 +912,7 @@ class App extends Component {
                           <div className="item item_gallery">
                             <div className="img-container">
                               <a className="img-link">
-                                <img className="img" src="https://36.img.avito.st/208x156/4093797936.jpg" alt="KIA Rio, 2017" />
+                                <img className="img" src={i4093797936} alt="KIA Rio, 2017" />
                                 <span className="photo-icons">
                                   <i className="i i-photo">15</i>
                                 </span>
@@ -935,7 +942,7 @@ class App extends Component {
                           <div className="item item_gallery">
                             <div className="img-container">
                               <a className="img-link">
-                                <img className="img" src="https://00.img.avito.st/208x156/4183461600.jpg" alt="Продажа шин" />
+                                <img className="img" src={i4183461600} alt="Продажа шин" />
                                 <span className="photo-icons">
                                   <i className="i i-photo">2</i>
                                 </span>
@@ -965,7 +972,7 @@ class App extends Component {
                           <div className="item item_gallery">
                             <div className="img-container">
                               <a className="img-link">
-                                <img className="img" src="https://31.img.avito.st/208x156/4183458731.jpg" alt="Бой кирпича арт. Rt874 д/заполнения пустот" />
+                                <img className="img" src={i4183458731} alt="Бой кирпича арт. Rt874 д/заполнения пустот" />
                               </a>
                               <div className="favorites-add is-design-simple">
                                 <a className="favorites-add__link">
@@ -992,7 +999,7 @@ class App extends Component {
                           <div className="item item_gallery">
                             <div className="img-container">
                               <a className="img-link">
-                                <img className="img" src="https://36.img.avito.st/208x156/4093797936.jpg" alt="KIA Rio, 2017" />
+                                <img className="img" src={i4093797936} alt="KIA Rio, 2017" />
                                 <span className="photo-icons">
                                   <i className="i i-photo">15</i>
                                 </span>
@@ -1022,7 +1029,7 @@ class App extends Component {
                           <div className="item item_gallery">
                             <div className="img-container">
                               <a className="img-link">
-                                <img className="img" src="https://00.img.avito.st/208x156/4183461600.jpg" alt="Продажа шин" />
+                                <img className="img" src={i4183461600} alt="Продажа шин" />
                                 <span className="photo-icons">
                                   <i className="i i-photo">2</i>
                                 </span>
@@ -1052,7 +1059,7 @@ class App extends Component {
                           <div className="item item_gallery">
                             <div className="img-container">
                               <a className="img-link">
-                                <img className="img" src="https://31.img.avito.st/208x156/4183458731.jpg" alt="Бой кирпича арт. Rt874 д/заполнения пустот" />
+                                <img className="img" src={i4183458731} alt="Бой кирпича арт. Rt874 д/заполнения пустот" />
                               </a>
                               <div className="favorites-add is-design-simple">
                                 <a className="favorites-add__link">
@@ -1102,7 +1109,7 @@ class App extends Component {
                       </div>
                       <div className="vip-item__photo">
                         <a className="vip-item__photo-link">
-                          <img src="https://85.img.avito.st/240x180/3675462485.jpg" alt="Голубые британчики" />
+                          <img src={i3675462485} alt="Голубые британчики" />
                         </a>
                       </div>
                       <div className="vip-item__description">
@@ -1129,7 +1136,7 @@ class App extends Component {
                       </div>
                       <div className="vip-item__photo">
                         <a className="vip-item__photo-link">
-                          <img src="https://85.img.avito.st/240x180/3675462485.jpg" alt="Голубые британчики" />
+                          <img src={i3675462485} alt="Голубые британчики" />
                         </a>
                       </div>
                       <div className="vip-item__description">
@@ -1156,7 +1163,7 @@ class App extends Component {
                       </div>
                       <div className="vip-item__photo">
                         <a className="vip-item__photo-link">
-                          <img src="https://85.img.avito.st/240x180/3675462485.jpg" alt="Голубые британчики" />
+                          <img src={i3675462485} alt="Голубые британчики" />
                         </a>
                       </div>
                       <div className="vip-item__description">

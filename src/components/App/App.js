@@ -1089,7 +1089,114 @@ class App extends Component {
               </div>
 
               {/* catalog promo */}
-              <div className="catalog-promo catalog-promo_empty-gap"></div>
+              <div className="catalog-promo catalog-promo_empty-gap">
+                <div className="catalog-promo-item">
+                  <div className="vips">
+                    <h2 className="vips__header">VIP-объявления</h2>
+
+                    <div className="vip-item">
+                      <div className="favorites-add favorites-add-vip is-design-simple">
+                        <a className="favorites-add__link">
+                          <i className="i i-favorites-big"></i>
+                        </a>
+                      </div>
+                      <div className="vip-item__photo">
+                        <a className="vip-item__photo-link">
+                          <img src="https://85.img.avito.st/240x180/3675462485.jpg" alt="Голубые британчики" />
+                        </a>
+                      </div>
+                      <div className="vip-item__description">
+                        <h3 className="vip-item__header fader">
+                          <a>Голубые британчики</a>
+                        </h3>
+                        <div className="vip-item__options">
+                          <p className="vip-item__price"></p>
+                          <div className="vip-item__option">3 000 руб.</div>
+                          <p></p>
+                          Саратов
+                          <div className="c-2 vip-item__date">
+                            2 февраля 20:38
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="vip-item">
+                      <div className="favorites-add favorites-add-vip is-design-simple">
+                        <a className="favorites-add__link">
+                          <i className="i i-favorites-big"></i>
+                        </a>
+                      </div>
+                      <div className="vip-item__photo">
+                        <a className="vip-item__photo-link">
+                          <img src="https://85.img.avito.st/240x180/3675462485.jpg" alt="Голубые британчики" />
+                        </a>
+                      </div>
+                      <div className="vip-item__description">
+                        <h3 className="vip-item__header fader">
+                          <a>Голубые британчики</a>
+                        </h3>
+                        <div className="vip-item__options">
+                          <p className="vip-item__price"></p>
+                          <div className="vip-item__option">3 000 руб.</div>
+                          <p></p>
+                          Саратов
+                          <div className="c-2 vip-item__date">
+                            2 февраля 20:38
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="vip-item">
+                      <div className="favorites-add favorites-add-vip is-design-simple">
+                        <a className="favorites-add__link">
+                          <i className="i i-favorites-big"></i>
+                        </a>
+                      </div>
+                      <div className="vip-item__photo">
+                        <a className="vip-item__photo-link">
+                          <img src="https://85.img.avito.st/240x180/3675462485.jpg" alt="Голубые британчики" />
+                        </a>
+                      </div>
+                      <div className="vip-item__description">
+                        <h3 className="vip-item__header fader">
+                          <a>Голубые британчики</a>
+                        </h3>
+                        <div className="vip-item__options">
+                          <p className="vip-item__price"></p>
+                          <div className="vip-item__option">3 000 руб.</div>
+                          <p></p>
+                          Саратов
+                          <div className="c-2 vip-item__date">
+                            2 февраля 20:38
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="vips__about">
+                      <a className="c-2">Что такое VIP-объявления?</a>
+                    </div>
+                  </div>
+                </div>
+                <div className="catalog-social-buttons catalog-promo-item">
+                  <div className="catalog-social-buttons-logo">
+                    <span className="b-logo">
+                      <span className="b-logo__img ">Avito</span>
+                    </span>
+                    в социальных сетях
+                  </div>
+                  <div className="catalog-social-buttons-icons">
+                    <a className="catalog-social-buttons-icon catalog-social-buttons-icon_vk">В</a>
+                    <a className="catalog-social-buttons-icon catalog-social-buttons-icon_ok">ОК</a>
+                    <a className="catalog-social-buttons-icon catalog-social-buttons-icon_fb">F</a>
+                    <a className="catalog-social-buttons-icon catalog-social-buttons-icon_yt">YT</a>
+                    <a className="catalog-social-buttons-icon catalog-social-buttons-icon_tw">T</a>
+                    <a className="catalog-social-buttons-icon catalog-social-buttons-icon_in">Ins</a>
+                  </div>
+                </div>
+              </div>
 
             </div>
 

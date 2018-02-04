@@ -650,6 +650,38 @@ blockquote::after, blockquote::before, q::after, q::before {
     padding-top: 10px;
 }
 
+/* empty banner */
+.avito-ads-container {
+    text-align: center;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.avito-ads-container_ldr_top {
+    padding-top: 15px;
+    min-height: 120px;
+}
+
+.ad_1000x120 {
+    max-height: 200px;
+    margin-top: -1px;
+    text-align: center;
+    color: #fff;
+    background: #fff;
+    position: relative;
+    z-index: 3;
+}
+
+.avito-ads-container .avito-ads-content {
+    display: inline-block;
+}
+
+.l-content #ads_ldr_low.avito-ads-content, .l-content #ads_ldr_top.avito-ads-content {
+    margin: 0 -18px;
+}
+
+
+
 
 
 /* App component */

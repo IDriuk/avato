@@ -303,6 +303,12 @@ class App extends Component {
                 </div>
               </div>
             </div>
+
+            {/* empty banner */}
+            <div className="avito-ads-container avito-ads-container_ldr_top">
+              <div id="ads_ldr_top" className="ad_1000x120 dfp avito-ads-content js-banner-1000x120"></div>
+            </div>
+
           </div>
         </div>
 

@@ -689,16 +689,6 @@ blockquote::after, blockquote::before, q::after, q::before {
     width: 644px;
 }
 
-.catalog-promo_empty-gap {
-    margin-top: 45px;
-}
-
-.catalog-promo {
-    width: 300px;
-    margin: 0 0 46px 20px;
-    position: relative;
-}
-
 .recommendations {
     margin-bottom: 30px;
 }
@@ -986,6 +976,238 @@ img {
 .recommendations-item_large .item .img-link img {
     -o-object-fit: cover;
     object-fit: cover;
+}
+
+/* catalog promo */
+
+.catalog-promo {
+    width: 300px;
+    margin: 0 0 46px 20px;
+    position: relative;
+}
+
+.catalog-promo_empty-gap {
+    margin-top: 45px;
+}
+
+.catalog-promo-item {
+    margin-bottom: 20px;
+}
+
+.vips {
+    border: 1px solid #ff6163;
+}
+
+.vips .vips__header {
+    margin: 0 0 25px;
+    padding: 7px 0 8px;
+    color: #fff;
+    background-color: #ff6163;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+}
+
+.vip-item {
+    width: 240px;
+    margin: 0 auto 12px;
+}
+
+.favorites-add {
+    position: relative;
+}
+
+.favorites-add-vip, .favorites-add.is-design-detail .favorites-add__label {
+    display: inline-block;
+}
+
+.favorites-add-vip {
+    position: absolute;
+    margin: 2px 0 0 2px;
+}
+
+.favorites-add__link {
+    cursor: pointer;
+    display: block;
+    border-bottom: 0;
+    font-size: 0;
+}
+
+.favorites-add-vip .favorites-add__link {
+    width: 34px;
+    height: 34px;
+}
+
+.vip-item__photo {
+    text-align: center;
+}
+
+.vip-item__photo-link {
+    display: block;
+    overflow: hidden;
+}
+
+.vip-item__description {
+    padding: 9px 8px 8px;
+}
+
+.vip-item__header {
+    overflow: hidden;
+    max-height: 42px;
+    margin-bottom: 2px;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 700;
+}
+
+.vip-item__option {
+    margin-right: 16px;
+    font-size: 16px;
+}
+
+.vip-item__date {
+    margin-top: -5px;
+}
+
+.c-2 {
+    color: #858585;
+}
+
+.vips .vips__about {
+    margin: 18px 0 24px;
+    text-align: center;
+    color: grey;
+}
+
+.c-2 .icon-link span, .c-2 a, .c-2.icon-link span, .c-2.pseudo-link, a.c-2 {
+    color: #858585;
+    border-bottom-color: #dadada;
+}
+
+.favorites-add-vip .i-favorites-big {
+    z-index: 2;
+    position: relative;
+    width: 25px;
+    height: 25px;
+}
+
+.favorites-add__link {
+    cursor: pointer;
+    display: block;
+    border-bottom: 0;
+    font-size: 0;
+}
+
+.favorites-add-vip .favorites-add__link {
+    width: 34px;
+    height: 34px;
+}
+
+.favorites-add-vip, .favorites-add.is-design-detail .favorites-add__label {
+    display: inline-block;
+}
+
+.favorites-add-vip {
+    position: absolute;
+    margin: 2px 0 0 2px;
+}
+
+.catalog-promo-item {
+    margin-bottom: 20px;
+}
+
+.catalog-social-buttons {
+    padding: 11px 0 9px;
+    color: #666;
+    font-size: 0;
+    text-align: center;
+    border: 1px solid #cecece;
+}
+
+.catalog-social-buttons-logo {
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.catalog-social-buttons-icons, .map-balloon .balloon-content {
+    display: inline-block;
+}
+
+.b-logo {
+    position: relative;
+    display: inline-block;
+    width: 105px;
+    height: 30px;
+    z-index: 1;
+}
+
+.catalog-social-buttons .b-logo {
+    position: relative;
+    left: -5px;
+    display: block;
+    width: 84px;
+    height: 24px;
+    margin: 0 auto 1px;
+    padding: 0;
+}
+
+.b-logo__img, .b-logo__link {
+    position: absolute;
+    top: -16.667%;
+    left: -4.762%;
+    width: 109.524%;
+    height: 133.333%;
+    background: url(../../images/logo-avito.svg) 50% 50% no-repeat;
+    background-size: 100% auto;
+    z-index: -1;
+    text-indent: -9000px;
+}
+
+.catalog-social-buttons .b-logo__img {
+    background-size: auto 100%;
+}
+
+.catalog-social-buttons-icons, .map-balloon .balloon-content {
+    display: inline-block;
+}
+
+.catalog-social-buttons-icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+    background: url(../../images/social-buttons.svg) no-repeat;
+    background-size: 242px 32px;
+    border-bottom: none;
+}
+
+.catalog-social-buttons-icon_vk {
+    background-position: 0 0;
+}
+
+.catalog-social-buttons-icon:first-child {
+    margin-left: 0;
+}
+
+.catalog-social-buttons-icon_ok {
+    background-position: -42px 0;
+}
+
+.catalog-social-buttons-icon_fb {
+    background-position: -84px 0;
+}
+
+.catalog-social-buttons-icon_yt {
+    background-position: -126px 0;
+}
+
+.catalog-social-buttons-icon_tw {
+    background-position: -168px 0;
+}
+
+.catalog-social-buttons-icon_in {
+    background-position: -210px 0;
 }
 
 /* App component */

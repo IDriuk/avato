@@ -1207,7 +1207,212 @@ class App extends Component {
 
             </div>
 
+            <div className="avito-ads-container avito-ads-container_ldr_low">
+              <div id="ads_ldr_low" className=" dfp avito-ads-content"></div>
+            </div>
+
           </div>
+
+          {/* category map */}
+          <div className="category-map">
+            <dl className="category-map__section">
+              <dt className="category-map__category category-map__root">
+                <a>Транспорт</a>
+              </dt>
+              <dd className="category-map__category">
+                <a>Автомобили</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Мотоциклы и мототехника</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Грузовики и спецтехника</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Водный транспорт</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Запчасти и аксессуары</a>
+              </dd>
+            </dl>
+            <dl className="category-map__section">
+              <dt className="category-map__category category-map__root">
+                <a>Недвижимость</a>
+              </dt>
+              <dd className="category-map__category">
+                <a>Квартиры</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Комнаты</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Дома, дачи, коттеджи</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Земельные участки</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Гаражи и машиноместа</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Коммерческая недвижимость</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Недвижимость за рубежом</a>
+              </dd>
+            </dl>
+            <dl className="category-map__section">
+              <dt className="category-map__category category-map__root">
+                <a>Работа</a>
+              </dt>
+              <dd className="category-map__category">
+                <a>Вакансии</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Резюме</a>
+              </dd>
+              <dt className="category-map__category category-map__root">
+                <a>Услуги</a>
+              </dt>
+              <dd className="category-map__category">
+                <a>Предложение услуг</a>
+              </dd>
+            </dl>
+            <dl className="category-map__section">
+              <dt className="category-map__category category-map__root">
+                <a>Личные вещи</a>
+              </dt>
+              <dd className="category-map__category">
+                <a>Одежда, обувь, аксессуары</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Детская одежда и обувь</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Товары для детей и игрушки</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Часы и украшения</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Красота и здоровье</a>
+              </dd>
+            </dl>
+            <dl className="category-map__section">
+              <dt className="category-map__category category-map__root">
+                <a>Для дома и дачи</a>
+              </dt>
+              <dd className="category-map__category">
+                <a>Бытовая техника</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Мебель и интерьер</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Посуда и товары для кухни</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Продукты питания</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Ремонт и строительство</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Растения</a>
+              </dd>
+              <dt className="category-map__category category-map__root">
+                <a>Для бизнеса</a>
+              </dt>
+              <dd className="category-map__category">
+                <a>Готовый бизнес</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Оборудование для бизнеса</a>
+              </dd>
+            </dl>
+            <dl className="category-map__section">
+              <dt className="category-map__category category-map__root">
+                <a>Бытовая электроника</a>
+              </dt>
+              <dd className="category-map__category">
+                <a>Аудио и видео</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Игры, приставки и программы</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Настольные компьютеры</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Ноутбуки</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Оргтехника и расходники</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Планшеты и электронные книги</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Телефоны</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Товары для компьютера</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Фототехника</a>
+              </dd>
+            </dl>
+            <dl className="category-map__section">
+              <dt className="category-map__category category-map__root">
+                <a>Хобби и отдых</a>
+              </dt>
+              <dd className="category-map__category">
+                <a>Билеты и путешествия</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Велосипеды</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Книги и журналы</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Коллекционирование</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Музыкальные инструменты</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Охота и рыбалка</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Спорт и отдых</a>
+              </dd>
+            </dl>
+            <dl className="category-map__section">
+              <dt className="category-map__category category-map__root">
+                <a>Животные</a>
+              </dt>
+              <dd className="category-map__category">
+                <a>Собаки</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Кошки</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Птицы</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Аквариум</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Другие животные</a>
+              </dd>
+              <dd className="category-map__category">
+                <a>Товары для животных</a>
+              </dd>
+            </dl>
+          </div>
+
         </div>
 
       </Fragment>

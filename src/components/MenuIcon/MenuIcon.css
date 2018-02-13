@@ -1,0 +1,16 @@
+.header-services-menu-item_favorites .header-services-menu-icon {
+    margin: -10px 0 -5px;
+}
+
+.header-services-menu-icon {
+    display: inline-block;
+}
+
+.header-services-menu-item_favorites .header-services-menu-icon svg {
+    width: 21px;
+    height: 21px;
+}
+
+.header-services-menu-icon svg {
+    display: block;
+}

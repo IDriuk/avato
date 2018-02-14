@@ -85,3 +85,7 @@ a {
     -ms-flex-positive: 1;
     flex-grow: 1;
 }
+
+strong {
+    font-weight: 700;
+}

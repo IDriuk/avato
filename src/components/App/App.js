@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 import './App.css';
 
 import MenuIcon from '../MenuIcon/MenuIcon';
+import Footer from '../Footer/Footer';
 
 import i3766960240 from '../../images/i3766960240.jpg';
 import i4163457101 from '../../images/i4163457101.jpg';
@@ -34,7 +35,9 @@ class App extends Component {
               <div className="header-services-menu-HMZRN">
                 <div className="header-services-menu-item_favorites">
                   <a className="header-services-menu-link-IZnN3">
+
                     <MenuIcon />
+
                   </a>
                 </div>
                 <div className=" header-services-menu-item_username-ZhPzt">
@@ -1410,55 +1413,7 @@ class App extends Component {
             </dl>
           </div>
 
-          {/* footer */}
-          <div className="l-footer footer-root-17A-K">
-            <ul className="footer-nav-15hen">
-              <li>
-                <a className="footer-item-bHkmw">Подать объявление</a>
-              </li>
-              <li>
-                <a className="footer-item-bHkmw">Объявления</a>
-              </li>
-              <li>
-                <a className="footer-item-bHkmw">Магазины</a>
-              </li>
-              <li>
-                <a className="footer-item-bHkmw">Помощь</a>
-              </li>
-              <li>
-                <a className="footer-item-bHkmw">Безопасность</a>
-              </li>
-              <li>
-                <a className="footer-item-bHkmw">Реклама на сайте</a>
-              </li>
-              <li>
-                <a className="footer-item-bHkmw">О компании</a>
-              </li>
-              <li>
-                <a className="footer-item-bHkmw">Вакансии</a>
-              </li>
-              <li>
-                <a className="footer-item-bHkmw">
-                  <strong>Мобильное приложение</strong>
-                </a>
-              </li>
-            </ul>
-            <div className="footer-info-2xlD6">
-              <div className="footer-about-2C2m6">
-                © Avito —
-                <a className="footer-link-3roHv"> сайт объявлений России</a>
-                . Использование сайта, в том числе подача объявлений, означает согласие с
-                <a className="footer-link-3roHv">пользовательским соглашением</a>
-                .
-                <br></br>
-                Оплачивая услуги на сайте, вы принимаете
-                <a className="footer-link-3roHv">оферту</a>
-                .
-                <a className="footer-link-3roHv">Информация о cookies</a>
-                .
-              </div>
-            </div>
-          </div>
+          <Footer />
 
         </div>
 

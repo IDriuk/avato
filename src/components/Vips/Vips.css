@@ -1,0 +1,81 @@
+.favorites-add-vip, .favorites-add.is-design-detail .favorites-add__label {
+  display: inline-block;
+}
+
+.favorites-add-vip {
+  position: absolute;
+  margin: 2px 0 0 2px;
+}
+
+.favorites-add-vip .i-favorites-big {
+  z-index: 2;
+  position: relative;
+  width: 25px;
+  height: 25px;
+}
+
+.favorites-add-vip .favorites-add__link {
+  width: 34px;
+  height: 34px;
+}
+
+.vip-item__photo {
+  text-align: center;
+}
+
+.vip-item__photo-link {
+  display: block;
+  overflow: hidden;
+}
+
+.vips .vips__about {
+  margin: 18px 0 24px;
+  text-align: center;
+  color: grey;
+}
+
+.vip-item {
+  width: 240px;
+  margin: 0 auto 12px;
+}
+
+.vip-item__description {
+  padding: 9px 8px 8px;
+}
+
+.vip-item__header {
+  overflow: hidden;
+  max-height: 42px;
+  margin-bottom: 2px;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
+.vip-item__option {
+  margin-right: 16px;
+  font-size: 16px;
+}
+
+.vip-item__date {
+  margin-top: -5px;
+}
+
+.vips {
+  border: 1px solid #ff6163;
+}
+
+.vips .vips__header {
+  margin: 0 0 25px;
+  padding: 7px 0 8px;
+  color: #fff;
+  background-color: #ff6163;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+}
+
+.catalog-promo-item {
+  margin-bottom: 20px;
+}

@@ -4,13 +4,13 @@ import './App.css';
 import MenuIcon from '../MenuIcon/MenuIcon';
 import Footer from '../Footer/Footer';
 import Socials from '../Socials/Socials'
+import Vips from '../Vips/Vips';
 
 import i3766960240 from '../../images/i3766960240.jpg';
 import i4163457101 from '../../images/i4163457101.jpg';
 import i4093797936 from '../../images/i4093797936.jpg';
 import i4183461600 from '../../images/i4183461600.jpg';
 import i4183458731 from '../../images/i4183458731.jpg';
-import i3675462485 from '../../images/i3675462485.jpg';
 
 class App extends Component {
   render() {
@@ -1098,97 +1098,8 @@ class App extends Component {
 
               {/* catalog promo */}
               <div className="catalog-promo catalog-promo_empty-gap">
-                <div className="catalog-promo-item">
-                  <div className="vips">
-                    <h2 className="vips__header">VIP-объявления</h2>
 
-                    <div className="vip-item">
-                      <div className="favorites-add favorites-add-vip is-design-simple">
-                        <a className="favorites-add__link">
-                          <i className="i i-favorites-big"></i>
-                        </a>
-                      </div>
-                      <div className="vip-item__photo">
-                        <a className="vip-item__photo-link">
-                          <img src={i3675462485} alt="Голубые британчики" />
-                        </a>
-                      </div>
-                      <div className="vip-item__description">
-                        <h3 className="vip-item__header fader">
-                          <a>Голубые британчики</a>
-                        </h3>
-                        <div className="vip-item__options">
-                          <p className="vip-item__price"></p>
-                          <div className="vip-item__option">3 000 руб.</div>
-                          <p></p>
-                          Саратов
-                          <div className="c-2 vip-item__date">
-                            2 февраля 20:38
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="vip-item">
-                      <div className="favorites-add favorites-add-vip is-design-simple">
-                        <a className="favorites-add__link">
-                          <i className="i i-favorites-big"></i>
-                        </a>
-                      </div>
-                      <div className="vip-item__photo">
-                        <a className="vip-item__photo-link">
-                          <img src={i3675462485} alt="Голубые британчики" />
-                        </a>
-                      </div>
-                      <div className="vip-item__description">
-                        <h3 className="vip-item__header fader">
-                          <a>Голубые британчики</a>
-                        </h3>
-                        <div className="vip-item__options">
-                          <p className="vip-item__price"></p>
-                          <div className="vip-item__option">3 000 руб.</div>
-                          <p></p>
-                          Саратов
-                          <div className="c-2 vip-item__date">
-                            2 февраля 20:38
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="vip-item">
-                      <div className="favorites-add favorites-add-vip is-design-simple">
-                        <a className="favorites-add__link">
-                          <i className="i i-favorites-big"></i>
-                        </a>
-                      </div>
-                      <div className="vip-item__photo">
-                        <a className="vip-item__photo-link">
-                          <img src={i3675462485} alt="Голубые британчики" />
-                        </a>
-                      </div>
-                      <div className="vip-item__description">
-                        <h3 className="vip-item__header fader">
-                          <a>Голубые британчики</a>
-                        </h3>
-                        <div className="vip-item__options">
-                          <p className="vip-item__price"></p>
-                          <div className="vip-item__option">3 000 руб.</div>
-                          <p></p>
-                          Саратов
-                          <div className="c-2 vip-item__date">
-                            2 февраля 20:38
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="vips__about">
-                      <a className="c-2">Что такое VIP-объявления?</a>
-                    </div>
-                  </div>
-                </div>
-
+                <Vips />
                 <Socials />
 
               </div>

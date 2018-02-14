@@ -3,6 +3,7 @@ import './App.css';
 
 import MenuIcon from '../MenuIcon/MenuIcon';
 import Footer from '../Footer/Footer';
+import Socials from '../Socials/Socials'
 
 import i3766960240 from '../../images/i3766960240.jpg';
 import i4163457101 from '../../images/i4163457101.jpg';
@@ -1187,22 +1188,9 @@ class App extends Component {
                     </div>
                   </div>
                 </div>
-                <div className="catalog-social-buttons catalog-promo-item">
-                  <div className="catalog-social-buttons-logo">
-                    <span className="b-logo">
-                      <span className="b-logo__img ">Avito</span>
-                    </span>
-                    в социальных сетях
-                  </div>
-                  <div className="catalog-social-buttons-icons">
-                    <a className="catalog-social-buttons-icon catalog-social-buttons-icon_vk">В</a>
-                    <a className="catalog-social-buttons-icon catalog-social-buttons-icon_ok">ОК</a>
-                    <a className="catalog-social-buttons-icon catalog-social-buttons-icon_fb">F</a>
-                    <a className="catalog-social-buttons-icon catalog-social-buttons-icon_yt">YT</a>
-                    <a className="catalog-social-buttons-icon catalog-social-buttons-icon_tw">T</a>
-                    <a className="catalog-social-buttons-icon catalog-social-buttons-icon_in">Ins</a>
-                  </div>
-                </div>
+
+                <Socials />
+
               </div>
 
             </div>

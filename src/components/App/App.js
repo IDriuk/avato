@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 import './App.css';
 
 import Services from '../Services/Services';
+import Basic from '../Basic/Basic';
 import Socials from '../Socials/Socials'
 import Vips from '../Vips/Vips';
 import Footer from '../Footer/Footer';
@@ -23,37 +24,7 @@ class App extends Component {
           <Services />
 
           {/* header basic */}
-          <div className="header-basic-1Lwr-">
-            <div className="header-basic-inner-3ZcvI header-clearfix">
-              <div className="header-logo-2fq6a">
-                <span className="logo-root-35OMU">
-                  <a className="logo-logo-zes49" title="Avito - сайт объявлений"> </a>
-                </span>
-              </div>
-              <ul className="header-list header-categories-zVUjn">
-                <li className="header-category-1Z_ya ">
-                  <a className="header-link header-category-link-2G0tv">Авто</a>
-                </li>
-                <li className="header-category-1Z_ya ">
-                  <a className="header-link header-category-link-2G0tv">Недвижимость</a>
-                </li>
-                <li className="header-category-1Z_ya ">
-                  <a className="header-link header-category-link-2G0tv">Работа</a>
-                </li>
-                <li className="header-category-1Z_ya ">
-                  <a className="header-link header-category-link-2G0tv">Услуги</a>
-                </li>
-                <li className="header-category-1Z_ya ">
-                  <button className="header-button-7OJ_l header-link header-category-link-2G0tv header-category-link_more-1aOhF">ещё</button>
-                </li>
-              </ul>
-              <div className="header-button-wrapper-iwCvN">
-                <a className="header-button-add-item-2cgWl button-root-1U-0K button-root_size-m-3mjxJ button-root_design-primary-eZ5Gi">
-                  Подать объявление
-                </a>
-              </div>
-            </div>
-          </div>
+          <Basic />
 
         </div>
 

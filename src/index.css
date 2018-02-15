@@ -68,35 +68,28 @@ strong {
   font-weight: 700;
 }
 
-.form-checkbox__label {
-    vertical-align: top;
-    padding: 0 0 0 25px;
-    cursor: pointer;
-}
-
-.form-checkbox, .form-checkbox__label, .form-checkbox__label:before {
-    position: relative;
-    display: inline-block;
+select {
+  font-size: 14px;
 }
 
 .layout-internal {
-    padding: 0 18px;
-    flex-shrink: 0;
-    background-color: #fff;
-    margin: 0 auto;
+  padding: 0 18px;
+  flex-shrink: 0;
+  background-color: #fff;
+  margin: 0 auto;
 }
 
 .col-12 {
-    width: 964px;
+  width: 964px;
 }
 
 .clearfix::after {
-    clear: both;
-    height: 0;
-    display: block;
-    content: '.';
-    visibility: hidden;
-    font: 0/0 a;
+  clear: both;
+  height: 0;
+  display: block;
+  content: '.';
+  visibility: hidden;
+  font: 0/0 a;
 }
 
 .layout-content-wrap {

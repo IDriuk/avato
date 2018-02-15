@@ -1,29 +1,71 @@
 * {
-    outline-color: #0091d9;
+  outline-color: #0091d9;
 }
 
 body {
-    margin: 0;
-    background-color: #fff;
-    color: #000;
-    font: 13px/1.5 Arial,'Helvetica Neue',Helvetica,sans-serif;
-    min-height: 100vh;
-    overflow-y: scroll;
-    display: flex;
-    flex-direction: column;
+  margin: 0;
+  background-color: #fff;
+  color: #000;
+  font: 13px/1.5 Arial,'Helvetica Neue',Helvetica,sans-serif;
+  min-height: 100vh;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
 }
 
 a, div, form, h1, h2, h3, h4, h5, h6, i, img, label, li, p, span, table, tbody, td, th, thead, tr, ul {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
 }
 
+a {
+  text-decoration: none!important;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+}
+
+a {
+  color: #0091d9;
+  transition: border-color .2s;
+}
+
+a {
+  outline: 0;
+}
+
+ul, menu, dir {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+
+li {
+  text-align: -webkit-match-parent;
+}
+
+button {
+  font-size: 14px;
+}
 
 button, input, select, textarea {
-    font-size: 14px;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none!important;
+  border-bottom: 1px solid transparent;
+  outline: 0;
+}
+
+strong {
+  font-weight: 700;
 }
 
 .form-checkbox__label {
@@ -68,12 +110,6 @@ button, input, select, textarea {
     -webkit-box-direction: normal;
 }
 
-a {
-    text-decoration: none!important;
-    border-bottom: 1px solid transparent;
-    outline: 0;
-}
-
 .icon-link>span, .pseudo-link, a {
     color: #0091d9;
     transition: border-color .2s;
@@ -84,8 +120,4 @@ a {
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
-}
-
-strong {
-    font-weight: 700;
 }

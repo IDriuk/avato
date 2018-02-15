@@ -1,19 +1,16 @@
-/* header root */
-
-.header-root-32BPK {
-    margin-bottom: 20px;
-    font-size: 13px;
+/* header */
+.header-root {
+  margin-bottom: 20px;
+  font-size: 13px;
 }
 
-.header-root-32BPK {
-    font-family: Arial,'Helvetica Neue',Helvetica,sans-serif;
+.header-root {
+  font-family: Arial,'Helvetica Neue',Helvetica,sans-serif;
 }
 
-.header-root_no-bottom-margin-7gPk3 {
-    margin-bottom: 0;
+.header-root_no-bottom-margin {
+  margin-bottom: 0;
 }
-
-/* header services */
 
 .header-clearfix::after {
   content: '.';
@@ -35,45 +32,6 @@
   color: #0091d9;
   outline: 0;
   background-color: transparent;
-}
-
-a {
-    text-decoration: none!important;
-    border-bottom: 1px solid transparent;
-    cursor: pointer;
-}
-
-a {
-    color: #0091d9;
-    transition: border-color .2s;
-}
-
-a {
-    outline: 0;
-}
-
-/* header basic */
-
-ul, menu, dir {
-    display: block;
-    list-style-type: disc;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 40px;
-}
-
-li {
-    text-align: -webkit-match-parent;
-}
-
-button {
-    font-size: 14px;
-}
-
-.header-button, .header-link {
-  text-decoration: none;
 }
 
 /* search */
@@ -810,37 +768,6 @@ img {
 
 .category-map__category+.category-map__root {
     margin-top: 27px;
-}
-
-/* App component */
-
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
 
 .c-2 {

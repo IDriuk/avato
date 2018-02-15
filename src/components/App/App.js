@@ -18,7 +18,7 @@ class App extends Component {
     return (
       <Fragment>
 
-        <div className="header-root-32BPK header-root_no-bottom-margin-7gPk3">
+        <div className="header-root header-root_no-bottom-margin">
 
           {/* header services */}
           <Services />

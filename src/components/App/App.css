@@ -14,94 +14,33 @@
 }
 
 /* header services */
-.header-services-2XcAz {
-    border-bottom: 1px solid #d8d8d8;
-    width: 100%;
+
+.header-clearfix::after {
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  font: 0/0 a;
+  height: 0;
 }
 
-.header-services-inner-37pha {
-    width: 964px;
-    padding: 0 18px;
-    margin: 0 auto;
-    position: relative;
+.header-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.header-services-inner-37pha::before {
-    content: '';
-    border-bottom: 1px solid #d8d8d8;
-    left: 0;
-    right: 0;
-    position: absolute;
-    bottom: -1px;
-    z-index: 1;
-}
-
-.header-clearfix-2C_lO::after {
-    content: '.';
-    display: block;
-    clear: both;
-    visibility: hidden;
-    font: 0/0 a;
-    height: 0;
-}
-
-.header-list-1QTjc {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.header-services-nav-HNIx_ {
-    float: left;
-}
-
-.header-services-nav-item-22BQy {
-    float: left;
-    margin-right: 18px;
-}
-
-.header-services-nav-link-1bw0t {
-    display: inline-block;
-    padding: 6px 0 3px;
-}
-
-.header-link-1PHO2 {
-    font-family: inherit;
-    color: #0091d9;
-    outline: 0;
-    background-color: transparent;
+.header-link {
+  font-family: inherit;
+  color: #0091d9;
+  outline: 0;
+  background-color: transparent;
 }
 
 a {
     text-decoration: none!important;
     border-bottom: 1px solid transparent;
     cursor: pointer;
-}
-
-.header-services-menu-HMZRN {
-    float: right;
-    display: flex;
-    max-height: 30px;
-}
-
-.header-services-menu-link-IZnN3 {
-    display: inline-block;
-    padding: 6px 10px 3px;
-}
-
-.header-services-menu-item_username-ZhPzt {
-    position: relative;
-}
-
-.header-services-menu-item_username-ZhPzt .header-services-menu-link-IZnN3 {
-    position: relative;
-    padding-right: 2px;
-    white-space: nowrap;
-}
-
-.header-services-menu-link-IZnN3 {
-    display: inline-block;
-    padding: 6px 10px 3px;
 }
 
 a {
@@ -159,11 +98,6 @@ a {
     font-size: 0;
 }
 
-.header-list-1QTjc {
-    list-style: none;
-    padding: 0;
-}
-
 ul, menu, dir {
     display: block;
     list-style-type: disc;
@@ -207,8 +141,8 @@ li {
     vertical-align: middle;
 }
 
-.header-button-7OJ_l, .header-link-1PHO2 {
-    text-decoration: none;
+.header-button-7OJ_l, .header-link {
+  text-decoration: none;
 }
 
 button {

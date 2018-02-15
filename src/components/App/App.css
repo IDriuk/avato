@@ -62,99 +62,18 @@
 
 /* catalog */
 .breadcrumbs {
-    padding-bottom: 20px;
-    font-size: 14px;
-    line-height: 18px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 .breadcrumbs-link-count {
-    display: inline-block;
-    color: #9b9b9b;
+  display: inline-block;
+  color: #9b9b9b;
 }
-
-.catalog-counts__section {
-    overflow: hidden;
-    margin: 10px 0;
-    font-size: 14px;
-    line-height: 20px;
-}
-
-.catalog-counts__section::after {
-  content: '';
-  display: block;
-  clear: left;
-  position: relative;
-  overflow: hidden;
-}
-
-.catalog-counts__more, .catalog-counts__row, .catalog-counts__section::after {
-    clear: left;
-    position: relative;
-    overflow: hidden;
-}
-
-.catalog-counts__section ul {
-    float: left;
-    margin: 0 40px 4px 0;
-}
-
-.catalog-counts__section ul li {
-    margin: 0 0 4px;
-    white-space: nowrap;
-}
-
-.catalog-counts__section ul li {
-    margin: 0 0 4px;
-    white-space: nowrap;
-}
-
-.catalog-counts__section ul{
-    padding-left: 0;
-    margin: 0 40px 0px 0;
-}
-
-.catalog-counts__number {
-    padding: 0;
-    color: grey;
-    font-size: 13px;
-}
-
 
 .b-simple-list, ol, ul {
     list-style: none;
-}
-
-.catalog-counts__switches {
-    margin: 4px 0 10px;
-    font-size: 14px;
-    line-height: 20px;
-}
-
-.catalog-counts__switch_on {
-    border-bottom: 0;
-    cursor: default;
-}
-
-.catalog-counts__switch {
-    margin: 0 10px 0 0;
-    padding: 0;
-    font-size: 13px;
-}
-
-.catalog-counts__switch {
-    margin: 0 10px 0 0;
-    padding: 0;
-    cursor: pointer;
-    font-size: 13px;
-}
-
-.pseudo-link {
-    border-bottom: 1px dotted #afdbee;
-}
-
-.catalog-counts__section+.catalog-counts__section {
-    border-top: 1px solid #d8d8d8;
-    padding-top: 10px;
 }
 
 /* empty banner */
@@ -184,16 +103,16 @@
 }
 
 .l-content #ads_ldr_low.avito-ads-content, .l-content #ads_ldr_top.avito-ads-content {
-    margin: 0 -18px;
+  margin: 0 -18px;
 }
 
 /* catalog content */
 .catalog-content {
-    display: flex;
+  display: flex;
 }
 
 .catalog-main {
-    width: 644px;
+  width: 644px;
 }
 
 .recommendations {

@@ -1,0 +1,25 @@
+.category-map__category {
+  margin: 0 0 5px;
+}
+
+.category-map__category+.category-map__root {
+  margin-top: 27px;
+}
+
+.category-map__root {
+    font-weight: 700;
+}
+
+.category-map__section {
+  display: inline-block;
+  width: 25%;
+  margin: 0 0 16px;
+  font-size: 13px;
+  vertical-align: top;
+  line-height: 18px;
+}
+
+.category-map {
+  margin-bottom: -19px;
+  font-size: 0;
+}

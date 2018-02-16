@@ -72,6 +72,10 @@ select {
   font-size: 14px;
 }
 
+img {
+    vertical-align: top;
+}
+
 .layout-internal {
   padding: 0 18px;
   flex-shrink: 0;

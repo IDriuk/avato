@@ -12,28 +12,28 @@ const list = [
   { src: i4163457101, description: "3-к квартира, 75 м², 5/10 эт.", photos_count: 20, price: "3 500 000 р.", place: "Краснодар", time: "Сегодня 17:53", large: true  },
   { src: i4093797936, description: "KIA Rio, 2017", photos_count: 15, price: "800 000 р.", place: "Пятигорск", time: "Сегодня 17:53"},
   { src: i4183461600, description: "Продажа шин", photos_count: 2, price: "5 000 р.", place: "Серпухов", time: "Сегодня 17:54"},
-  { src: i4183458731, description: "Бой кирпича арт. Rt874 д/заполнения пустот", photos_count: "", price: "100 р.", place: "Краснодар", time: "Сегодня 17:54"},
+  { src: i4183458731, description: "Бой кирпича арт. Rt874 д/заполнения пустот", price: "100 р.", place: "Краснодар", time: "Сегодня 17:54"},
   { src: i4093797936, description: "KIA Rio, 2017", photos_count: 15, price: "800 000 р.", place: "Пятигорск", time: "Сегодня 17:53"},
   { src: i4183461600, description: "Продажа шин", photos_count: 2, price: "5 000 р.", place: "Серпухов", time: "Сегодня 17:54"},
-  { src: i4183458731, description: "Бой кирпича арт. Rt874 д/заполнения пустот", photos_count: "", price: "100 р.", place: "Краснодар", time: "Сегодня 17:54"},
+  { src: i4183458731, description: "Бой кирпича арт. Rt874 д/заполнения пустот", price: "100 р.", place: "Краснодар", time: "Сегодня 17:54"},
   { src: i4093797936, description: "KIA Rio, 2017", photos_count: 15, price: "800 000 р.", place: "Пятигорск", time: "Сегодня 17:53"},
   { src: i4183461600, description: "Продажа шин", photos_count: 2, price: "5 000 р.", place: "Серпухов", time: "Сегодня 17:54"},
-  { src: i4183458731, description: "Бой кирпича арт. Rt874 д/заполнения пустот", photos_count: "", price: "100 р.", place: "Краснодар", time: "Сегодня 17:54"},
+  { src: i4183458731, description: "Бой кирпича арт. Rt874 д/заполнения пустот", price: "100 р.", place: "Краснодар", time: "Сегодня 17:54"},
   { src: i4093797936, description: "KIA Rio, 2017", photos_count: 15, price: "800 000 р.", place: "Пятигорск", time: "Сегодня 17:53"},
   { src: i4183461600, description: "Продажа шин", photos_count: 2, price: "5 000 р.", place: "Серпухов", time: "Сегодня 17:54"},
-  { src: i4183458731, description: "Бой кирпича арт. Rt874 д/заполнения пустот", photos_count: "", price: "100 р.", place: "Краснодар", time: "Сегодня 17:54"},
+  { src: i4183458731, description: "Бой кирпича арт. Rt874 д/заполнения пустот", price: "100 р.", place: "Краснодар", time: "Сегодня 17:54"},
   { src: i4093797936, description: "KIA Rio, 2017", photos_count: 15, price: "800 000 р.", place: "Пятигорск", time: "Сегодня 17:53"},
   { src: i4183461600, description: "Продажа шин", photos_count: 2, price: "5 000 р.", place: "Серпухов", time: "Сегодня 17:54"},
-  { src: i4183458731, description: "Бой кирпича арт. Rt874 д/заполнения пустот", photos_count: "", price: "100 р.", place: "Краснодар", time: "Сегодня 17:54"},
+  { src: i4183458731, description: "Бой кирпича арт. Rt874 д/заполнения пустот", price: "100 р.", place: "Краснодар", time: "Сегодня 17:54"},
   { src: i4093797936, description: "KIA Rio, 2017", photos_count: 15, price: "800 000 р.", place: "Пятигорск", time: "Сегодня 17:53"},
   { src: i4183461600, description: "Продажа шин", photos_count: 2, price: "5 000 р.", place: "Серпухов", time: "Сегодня 17:54"},
-  { src: i4183458731, description: "Бой кирпича арт. Rt874 д/заполнения пустот", photos_count: "", price: "100 р.", place: "Краснодар", time: "Сегодня 17:54"},
+  { src: i4183458731, description: "Бой кирпича арт. Rt874 д/заполнения пустот", price: "100 р.", place: "Краснодар", time: "Сегодня 17:54"},
   { src: i4093797936, description: "KIA Rio, 2017", photos_count: 15, price: "800 000 р.", place: "Пятигорск", time: "Сегодня 17:53"},
   { src: i4183461600, description: "Продажа шин", photos_count: 2, price: "5 000 р.", place: "Серпухов", time: "Сегодня 17:54"},
-  { src: i4183458731, description: "Бой кирпича арт. Rt874 д/заполнения пустот", photos_count: "", price: "100 р.", place: "Краснодар", time: "Сегодня 17:54"},
+  { src: i4183458731, description: "Бой кирпича арт. Rt874 д/заполнения пустот", price: "100 р.", place: "Краснодар", time: "Сегодня 17:54"},
   { src: i4093797936, description: "KIA Rio, 2017", photos_count: 15, price: "800 000 р.", place: "Пятигорск", time: "Сегодня 17:53"},
   { src: i4183461600, description: "Продажа шин", photos_count: 2, price: "5 000 р.", place: "Серпухов", time: "Сегодня 17:54"},
-  { src: i4183458731, description: "Бой кирпича арт. Rt874 д/заполнения пустот", photos_count: "", price: "100 р.", place: "Краснодар", time: "Сегодня 17:54"}
+  { src: i4183458731, description: "Бой кирпича арт. Rt874 д/заполнения пустот", price: "100 р.", place: "Краснодар", time: "Сегодня 17:54"}
 ]
 
 class Recomendations extends Component {
@@ -45,9 +45,9 @@ class Recomendations extends Component {
           <div className="img-container">
             <a className="img-link">
               <img className="img" src={src} alt={description} />
-              <span className="photo-icons">
+              {photos_count ? <span className="photo-icons">
                 <i className="i i-photo">{photos_count}</i>
-              </span>
+              </span> : ""}
             </a>
             <div className="favorites-add is-design-simple">
               <a className="favorites-add__link">

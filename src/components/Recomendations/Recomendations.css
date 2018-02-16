@@ -1,0 +1,167 @@
+.favorites-add__link {
+  cursor: pointer;
+  display: block;
+  border-bottom: 0;
+  font-size: 0;
+}
+
+.item_gallery .favorites-add__link {
+  display: block;
+  width: 34px;
+  height: 34px;
+}
+
+.item_gallery .favorites-add {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+.i-photo {
+  width: 19px;
+  height: 17px;
+  background: url(../../images/photo-icons-sprite.png) no-repeat;
+}
+
+.item_gallery .i-photo {
+  margin-right: 6px;
+  padding-top: 4px;
+  height: 13px;
+}
+
+.item_gallery .photo-icons .i {
+  vertical-align: bottom;
+}
+
+.recommendations-item .img-link img {
+  width: 100%;
+  height: 100%;
+}
+
+.recommendations-item_large .item .img-link img {
+  object-fit: cover;
+}
+
+.item_gallery .img-link {
+  display: block;
+  height: 156px;
+  border: 0;
+}
+
+.recommendations-item_large .item .img-link {
+  height: 238px;
+}
+
+.item_gallery .img-container {
+  position: relative;
+  background-color: #eee;
+}
+
+.recommendations-item_large .item {
+  width: auto;
+  float: none;
+  margin-right: 0;
+}
+
+.item_gallery {
+  float: left;
+  width: 208px;
+  min-height: 216px;
+  margin: 0 10px 25px 0;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.item_gallery:nth-child(3n+1), .item_in_transport:nth-child(3n+1) {
+  clear: both;
+}
+
+.item_gallery .description {
+  padding: 8px 4px 1px 3px;
+}
+
+.item_gallery .img {
+  display: block;
+}
+
+.item_gallery .i-favorites-big {
+  width: 25px;
+  height: 25px;
+}
+
+.item_gallery .title {
+  max-height: 36px;
+  margin-bottom: 0;
+  overflow: hidden;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.item_gallery .options {
+  margin-top: -1px;
+}
+
+.item_gallery .option {
+  font-weight: 400;
+  font-size: 13px;
+  margin-right: 12px;
+}
+
+.item_gallery .created-date {
+  font-size: 13px;
+  color: #858585;
+}
+
+.item_gallery-ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.item_gallery .photo-icons {
+  position: absolute;
+  bottom: 4px;
+  left: 4px;
+  font: 12px/1 Arial,sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+.item_gallery .img {
+  display: block;
+}
+
+.recommendations-title {
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.fader {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.fader::after, .has-loader::after {
+  content: '';
+}
+
+.recommendations-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -10px;
+}
+
+.recommendations {
+  margin-bottom: 30px;
+}
+
+.recommendations-item {
+  width: 208px;
+  margin-right: 10px;
+}
+
+.recommendations-item_large {
+  width: 317px;
+}

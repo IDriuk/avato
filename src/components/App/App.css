@@ -43,6 +43,14 @@
   color: #000;
 }
 
+.button-origin:hover {
+  background-color: #f7f7f7;
+}
+
+.button-origin:active {
+  box-shadow: inset 0 2px 2px 0 #ccc;
+}
+
 .button {
   position: relative;
   box-sizing: border-box;

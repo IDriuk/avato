@@ -92,13 +92,23 @@ a.button-root_design-primary:hover {
   color: #fff;
 }
 
+.button-root_design-primary:active,
 .button-root_design-primary:hover {
   background: #26b7ff;
   border-color: #0095e0;
 }
 
+.button-root_design-primary:active {
+  box-shadow: inset 0 2px 1px #009cea;
+}
+
 .button-root_size-m {
   padding: 6px 13px;
+}
+
+.button-root_size-m:active {
+  padding-top: 7px;
+  padding-bottom: 5px;
 }
 
 .button-root {

@@ -36,6 +36,10 @@ a {
   outline: 0;
 }
 
+a:hover:not(.button) {
+  color: #ff6163;
+}
+
 ul, menu, dir {
   display: block;
   list-style-type: disc;
@@ -56,12 +60,6 @@ button {
 
 button, input, select, textarea {
   font-size: 14px;
-}
-
-a {
-  text-decoration: none!important;
-  border-bottom: 1px solid transparent;
-  outline: 0;
 }
 
 strong {

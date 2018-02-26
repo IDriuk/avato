@@ -237,3 +237,13 @@ img {
   color: #858585;
   border-bottom-color: #dadada;
 }
+
+.c-2 .icon-link:hover span,
+.c-2 a:hover,
+.pseudo-link.c-2:hover,
+.pseudo-link.icon-link.c-2:hover span,
+a.c-2.icon-link:hover span,
+a.c-2:hover {
+  color: #5e5e5e;
+  border-bottom-color: #5e5e5e;
+}

@@ -20,6 +20,11 @@
   border-bottom-color: #dadada;
 }
 
+.footer-link:hover {
+  color: #5e5e5e!important;
+  border-bottom-color: #5e5e5e;
+}
+
 .footer-about {
   flex-grow: 1;
   color: #858585;

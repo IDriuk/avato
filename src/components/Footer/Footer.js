@@ -30,7 +30,7 @@ class Footer extends Component {
             © Avito —
             <a className="footer-link"> сайт объявлений России</a>
             . Использование сайта, в том числе подача объявлений, означает согласие с
-            <a className="footer-link">пользовательским соглашением</a>
+            <a className="footer-link"> пользовательским соглашением</a>
             .
             <br></br>
             Оплачивая услуги на сайте, вы принимаете

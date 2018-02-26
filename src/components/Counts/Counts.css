@@ -14,6 +14,11 @@
   border-bottom: 1px dotted #afdbee;
 }
 
+.pseudo-link:hover {
+  color: #ff6163;
+  border-bottom-color: #ff6163;
+}
+
 .catalog-counts__switches {
   margin: 4px 0 10px;
   font-size: 14px;

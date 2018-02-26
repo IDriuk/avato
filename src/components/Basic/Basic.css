@@ -88,6 +88,15 @@
   color: #fff;
 }
 
+a.button-root_design-primary:hover {
+  color: #fff;
+}
+
+.button-root_design-primary:hover {
+  background: #26b7ff;
+  border-color: #0095e0;
+}
+
 .button-root_size-m {
   padding: 6px 13px;
 }

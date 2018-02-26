@@ -33,6 +33,10 @@
   background-color: transparent;
 }
 
+.header-link:hover {
+  color: #ff6163;
+}
+
 .button-origin {
   background-color: #fff;
   line-height: 16px;

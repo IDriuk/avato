@@ -54,3 +54,7 @@
 .header-services-nav {
   float: left;
 }
+
+.header-services-menu-item_favorites .header-services-menu-link:hover path{
+  stroke: #f66a2b;
+}

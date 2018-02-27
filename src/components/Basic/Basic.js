@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Basic.css';
 
+const shortList = ["Авто","Недвижимость","Работа","Услуги"];
 const list1 = ["Транспорт", "Автомобили", "Мотоциклы и мототехника", "Грузовики и спецтехника", "Водный транспорт", "Запчасти и аксессуары"];
 const list2 = ["Для дома и дачи", "Бытовая техника", "Мебель и интерьер", "Посуда и товары для кухни", "Продукты питания", "Ремонт и строительство", "Растения"];
 const list3 = ["Для бизнеса", "Готовый бизнес", "Оборудование для бизнеса"];
@@ -13,6 +14,18 @@ const list9 = ["Личные вещи", "Одежда, обувь, аксесс�
 const list10 = ["Животные", "Собаки", "Кошки", "Птицы", "Аквариум", "Другие животные", "Товары для животных"];
 
 class Basic extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = { showTooltip: false };
+
+    this.toggleTooltip = this.toggleTooltip.bind(this);
+  }
+
+  toggleTooltip() {
+    this.setState({showTooltip: !this.state.showTooltip});
+  }
+
   renderList(list) {
     return (
       <ul className="header-categories-all__list">
@@ -24,7 +37,20 @@ class Basic extends Component {
     );
   }
 
+  componentDidMount() {
+    document.addEventListener('mouseup', function (e) {
+      const tooltip = document.querySelector('.header-more-popup');
+      const button = document.querySelector('.header-category-link_more');
+
+      if (!tooltip.contains(e.target) && !button.contains(e.target)) {
+        this.setState({showTooltip: false});
+      }
+    }.bind(this));
+  }
+
   render () {
+    const { showTooltip } = this.state;
+
     return (
       <div className="header-basic">
         <div className="header-basic-inner header-clearfix">
@@ -34,12 +60,15 @@ class Basic extends Component {
             </span>
           </div>
           <ul className="header-list header-categories">
-            {["Авто","Недвижимость","Работа","Услуги"].map(item =>
+            {shortList.map(item =>
             <li key={item} className="header-category">
               <a className="header-link header-category-link">{item}</a>
             </li>)}
             <li className="header-category ">
-              <button className="header-button header-link header-category-link header-category-link_more">ещё</button>
+              <button
+                className="header-button header-link header-category-link header-category-link_more"
+                onClick={this.toggleTooltip}
+              >ещё</button>
             </li>
           </ul>
           <div className="header-button-wrapper">
@@ -48,7 +77,7 @@ class Basic extends Component {
             </a>
           </div>
         </div>
-        <div className="tooltip tooltip_bottom header-more-popup" style={{display: "block"}}>
+        <div className="tooltip tooltip_bottom header-more-popup" style={{ display: showTooltip ? "block" : "none" }}>
           <div className="tooltip-arrow" style={{marginLeft: "-39.3906px"}}></div>
           <div>
             <div className="header-categories-all">

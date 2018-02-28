@@ -37,8 +37,24 @@ const list = [
 ]
 
 class Recomendations extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {list: [...list]};
+
+    this.renderItem = this.renderItem.bind(this);
+  }
+
+  toggleFavorite(i) {
+    const newList = [...this.state.list];
+
+    newList[i].favorite = !newList[i].favorite;
+    
+    this.setState({list: newList});
+  }
+
   renderItem (item, index) {
-    const {src, description, photos_count, price, place, time, large} = item;
+    const {src, description, photos_count, price, place, time, large, favorite} = item;
     return (
       <div key={index} className={`recommendations-item ${large ? "recommendations-item_large" : ""}`}>
         <div className="item item_gallery">
@@ -52,7 +68,8 @@ class Recomendations extends Component {
             <div className="favorites-add is-design-simple">
               <a className="favorites-add__link">
                 <i
-                  className={`i i-favorites-big ${place === "Пятигорск" ? "i-favorites-big_fill" : ""}`}
+                  className={`i i-favorites-big ${favorite ? "i-favorites-big_fill" : ""}`}
+                  onClick={() => this.toggleFavorite(index)}
                 ></i>
               </a>
             </div>
@@ -75,6 +92,8 @@ class Recomendations extends Component {
   }
 
   render () {
+    const { list } = this.state;
+
     return (
       <div className="recommendations">
         <div className="recommendations-title">Новые объявления</div>

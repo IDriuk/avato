@@ -177,6 +177,11 @@
   background-size: cover;
 }
 
+.i-favorites-big.i-favorites-big_fill{
+  background: url(../../images/star-fill.svg) no-repeat;
+  background-size:  cover;
+}
+
 .h3, h3 {
   margin: 0 0 15px;
   font-size: 21px;

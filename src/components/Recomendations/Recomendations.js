@@ -51,7 +51,9 @@ class Recomendations extends Component {
             </a>
             <div className="favorites-add is-design-simple">
               <a className="favorites-add__link">
-                <i className="i i-favorites-big"></i>
+                <i
+                  className={`i i-favorites-big ${place === "Пятигорск" ? "i-favorites-big_fill" : ""}`}
+                ></i>
               </a>
             </div>
           </div>

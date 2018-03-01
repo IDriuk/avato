@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import './App.css';
+import './Tooltip.css';
 
 import Services from '../Services/Services';
 import Basic from '../Basic/Basic';

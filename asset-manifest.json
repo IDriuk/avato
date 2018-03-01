@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.b1062b77.css",
-  "main.css.map": "static/css/main.b1062b77.css.map",
-  "main.js": "static/js/main.f3141b73.js",
-  "main.js.map": "static/js/main.f3141b73.js.map",
+  "main.css": "static/css/main.f453b184.css",
+  "main.css.map": "static/css/main.f453b184.css.map",
+  "main.js": "static/js/main.fe43708b.js",
+  "main.js.map": "static/js/main.fe43708b.js.map",
   "static\\media\\i3766960240.jpg": "static/media/i3766960240.ec271da2.jpg",
   "static\\media\\i4163457101.jpg": "static/media/i4163457101.a02aada1.jpg",
   "static\\media\\input-checkbox-checked.svg": "static/media/input-checkbox-checked.7d86237d.svg",
@@ -11,5 +11,6 @@
   "static\\media\\select-arrow.svg": "static/media/select-arrow.5d283cfe.svg",
   "static\\media\\social-buttons.svg": "static/media/social-buttons.84f13fb2.svg",
   "static\\media\\star-empty.svg": "static/media/star-empty.3cd575d0.svg",
+  "static\\media\\star-fill.svg": "static/media/star-fill.50ef6180.svg",
   "static\\media\\star.svg": "static/media/star.64e9ce11.svg"
 }

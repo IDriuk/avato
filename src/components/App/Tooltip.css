@@ -108,6 +108,11 @@
     right: auto!important;
 }
 
+.vips .favorites-tooltip .tooltip-arrow {
+    left: 15px;
+    right: auto!important;
+}
+
 .tooltip_top .tooltip-arrow::before {
     margin: 0 auto;
     border-top-color: #fff;

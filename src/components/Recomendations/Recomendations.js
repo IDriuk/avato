@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Recomendations.css';
+import FavoriteAdd from '../FavoriteAdd/FavoriteAdd';
 
 import i3766960240 from '../../images/i3766960240.jpg';
 import i4163457101 from '../../images/i4163457101.jpg';
@@ -36,58 +37,15 @@ const list = [
   { src: i4183458731, description: "Бой кирпича арт. Rt874 д/заполнения пустот", price: "100 р.", place: "Краснодар", time: "Сегодня 17:54"}
 ];
 
-class FavoriteAdd extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {...props};
-  }
-
-  toggleFavorite(i) {
-    let {favorite, showTooltip} = this.state;
-
-    if (!favorite) {
-      showTooltip = true;
-      setTimeout(() => this.setState({showTooltip: false}), 3000);
-    } else {
-      showTooltip = false;
-    }
-
-    this.setState({favorite: !favorite, showTooltip});
-  }
-
-  render() {
-    const {favorite, showTooltip} = this.state;
-
-    return (<div className="favorites-add is-design-simple">
-      <a
-        title={favorite ? "удалить из избранного" : "добавить в избранное"}
-        className="favorites-add__link">
-        <i
-          className={`i i-favorites-big ${favorite ? "i-favorites-big_fill" : ""}`}
-          onClick={() => this.toggleFavorite()}
-        ></i>
-      </a>
-      {showTooltip &&
-      <div className="tooltip tooltip_top favorites-tooltip" style={{display: "block"}}>
-        Добавлено <a>в избранное</a>
-        <div className="tooltip-arrow"></div>
-      </div>}
-    </div>);
-  }
-}
-
 class Recomendations extends Component {
   constructor(props) {
     super(props);
-
-    this.state = {list: [...list]};
 
     this.renderItem = this.renderItem.bind(this);
   }
 
   renderItem (item, index) {
-    const {src, description, photos_count, price, place, time, large, favorite, showTooltip} = item;
+    const {src, description, photos_count, price, place, time, large } = item;
 
     return (
       <div key={index} className={`recommendations-item ${large ? "recommendations-item_large" : ""}`}>
@@ -99,7 +57,7 @@ class Recomendations extends Component {
                 <i className="i i-photo">{photos_count}</i>
               </span> : ""}
             </a>
-            <FavoriteAdd {...{favorite, showTooltip, index} } toggleFavorite={this.toggleFavorite}/>
+            <FavoriteAdd />
           </div>
           <div className="description">
             <h3 className="title description-title">
@@ -119,7 +77,6 @@ class Recomendations extends Component {
   }
 
   render () {
-    const { list } = this.state;
 
     return (
       <div className="recommendations">

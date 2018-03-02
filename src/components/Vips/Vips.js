@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Vips.css';
+import FavoriteAdd from '../FavoriteAdd/FavoriteAdd';
 
 import i3675462485 from '../../images/i3675462485.jpg';
 
@@ -12,11 +13,7 @@ class Vips extends Component {
 
           {[1,2,3].map(item =>
           <div key={item} className="vip-item">
-            <div className="favorites-add favorites-add-vip is-design-simple">
-              <a className="favorites-add__link">
-                <i className="i i-favorites-big"></i>
-              </a>
-            </div>
+            <FavoriteAdd vip />
             <div className="vip-item__photo">
               <a className="vip-item__photo-link">
                 <img src={i3675462485} alt="Голубые британчики" />

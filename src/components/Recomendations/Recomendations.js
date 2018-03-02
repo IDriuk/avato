@@ -34,7 +34,48 @@ const list = [
   { src: i4093797936, description: "KIA Rio, 2017", photos_count: 15, price: "800 000 р.", place: "Пятигорск", time: "Сегодня 17:53"},
   { src: i4183461600, description: "Продажа шин", photos_count: 2, price: "5 000 р.", place: "Серпухов", time: "Сегодня 17:54"},
   { src: i4183458731, description: "Бой кирпича арт. Rt874 д/заполнения пустот", price: "100 р.", place: "Краснодар", time: "Сегодня 17:54"}
-]
+];
+
+class FavoriteAdd extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {...props};
+  }
+
+  toggleFavorite(i) {
+    let {favorite, showTooltip} = this.state;
+
+    if (!favorite) {
+      showTooltip = true;
+      setTimeout(() => this.setState({showTooltip: false}), 3000);
+    } else {
+      showTooltip = false;
+    }
+
+    this.setState({favorite: !favorite, showTooltip});
+  }
+
+  render() {
+    const {favorite, showTooltip} = this.state;
+
+    return (<div className="favorites-add is-design-simple">
+      <a
+        title={favorite ? "удалить из избранного" : "добавить в избранное"}
+        className="favorites-add__link">
+        <i
+          className={`i i-favorites-big ${favorite ? "i-favorites-big_fill" : ""}`}
+          onClick={() => this.toggleFavorite()}
+        ></i>
+      </a>
+      {showTooltip &&
+      <div className="tooltip tooltip_top favorites-tooltip" style={{display: "block"}}>
+        Добавлено <a>в избранное</a>
+        <div className="tooltip-arrow"></div>
+      </div>}
+    </div>);
+  }
+}
 
 class Recomendations extends Component {
   constructor(props) {
@@ -45,27 +86,8 @@ class Recomendations extends Component {
     this.renderItem = this.renderItem.bind(this);
   }
 
-  toggleFavorite(i) {
-    const newList = [...this.state.list];
-
-    newList[i].favorite = !newList[i].favorite;
-
-    newList[i].showTooltip = newList[i].favorite ? true : false;
-
-    this.setState({list: newList});
-  }
-
-  hideTooltipWithDelay(i) {
-    const newList = [...this.state.list];
-    newList[i].showTooltip = false;
-
-    this.setState({list: newList});
-  }
-
   renderItem (item, index) {
     const {src, description, photos_count, price, place, time, large, favorite, showTooltip} = item;
-
-    if (showTooltip) setTimeout(() => this.hideTooltipWithDelay(index), 3000);
 
     return (
       <div key={index} className={`recommendations-item ${large ? "recommendations-item_large" : ""}`}>
@@ -77,21 +99,7 @@ class Recomendations extends Component {
                 <i className="i i-photo">{photos_count}</i>
               </span> : ""}
             </a>
-            <div className="favorites-add is-design-simple">
-              <a
-                title={favorite ? "удалить из избранного" : "добавить в избранное"}
-                className="favorites-add__link">
-                <i
-                  className={`i i-favorites-big ${favorite ? "i-favorites-big_fill" : ""}`}
-                  onClick={() => this.toggleFavorite(index)}
-                ></i>
-              </a>
-              {showTooltip &&
-              <div className="tooltip tooltip_top favorites-tooltip" style={{display: "block"}}>
-                Добавлено <a>в избранное</a>
-                <div className="tooltip-arrow"></div>
-              </div>}
-            </div>
+            <FavoriteAdd {...{favorite, showTooltip, index} } toggleFavorite={this.toggleFavorite}/>
           </div>
           <div className="description">
             <h3 className="title description-title">
